@@ -1,0 +1,297 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>League Table</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr><th class="sorting_asc" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Position: activate to sort column descending" style="width: 108px;">Position</th><th class="sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Team: activate to sort column ascending" style="width: 172px;">Team</th><th class="sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Played: activate to sort column ascending" style="width: 90px;">Played</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="W: activate to sort column ascending" style="width: 32px;">W</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="D: activate to sort column ascending" style="width: 29px;">D</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="L: activate to sort column ascending" style="width: 23px;">L</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="F: activate to sort column ascending" style="width: 24px;">F</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="A: activate to sort column ascending" style="width: 26px;">A</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="GD: activate to sort column ascending" style="width: 44px;">GD</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Pts: activate to sort column ascending" style="width: 49px;">Pts</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Fl: activate to sort column ascending" style="width: 32px;">Fl</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Y: activate to sort column ascending" style="width: 24px;">Y</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="R: activate to sort column ascending" style="width: 29px;">R</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Sh: activate to sort column ascending" style="width: 42px;">Sh</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="ShT: activate to sort column ascending" style="width: 55px;">ShT</th></tr><tr><td colspan="15" rowspan="1">
+<b>Notes:</b><br>
+Key to column headings:-
+<strong>Fl</strong> = Number of Fouls
+<strong>Y </strong>= Number of Yellow cards
+<strong>R</strong> = Number of Reds
+<strong>Sh</strong> = Number of Shots
+<strong>ShT</strong> = Number of Shots on Target
+</td></tr><tr>
+<td class="sorting_1">1</td>
+<td>Bayern Munich</td>
+<td>34</td>
+<td class="text-right">29</td>
+<td class="text-right">3</td>
+<td class="text-right">2</td>
+<td class="text-right">94</td>
+<td class="text-right">23</td>
+<td class="text-right">71</td>
+<td class="text-right home">90</td>
+<td class="text-right">407</td>
+<td class="text-right">45</td>
+<td class="text-right">2</td>
+<td class="text-right">630</td>
+<td class="text-right">258</td>
+</tr><tr>
+<td class="sorting_1">2</td>
+<td>Dortmund</td>
+<td>34</td>
+<td class="text-right">22</td>
+<td class="text-right">5</td>
+<td class="text-right">7</td>
+<td class="text-right">80</td>
+<td class="text-right">38</td>
+<td class="text-right">42</td>
+<td class="text-right home">71</td>
+<td class="text-right">464</td>
+<td class="text-right">43</td>
+<td class="text-right">2</td>
+<td class="text-right">614</td>
+<td class="text-right">242</td>
+</tr><tr>
+<td class="sorting_1">3</td>
+<td>Schalke 04</td>
+<td>34</td>
+<td class="text-right">19</td>
+<td class="text-right">7</td>
+<td class="text-right">8</td>
+<td class="text-right">63</td>
+<td class="text-right">43</td>
+<td class="text-right">20</td>
+<td class="text-right home">64</td>
+<td class="text-right">556</td>
+<td class="text-right">53</td>
+<td class="text-right">5</td>
+<td class="text-right">474</td>
+<td class="text-right">182</td>
+</tr><tr>
+<td class="sorting_1">4</td>
+<td>Leverkusen</td>
+<td>34</td>
+<td class="text-right">19</td>
+<td class="text-right">4</td>
+<td class="text-right">11</td>
+<td class="text-right">60</td>
+<td class="text-right">41</td>
+<td class="text-right">19</td>
+<td class="text-right home">61</td>
+<td class="text-right">510</td>
+<td class="text-right">69</td>
+<td class="text-right">2</td>
+<td class="text-right">494</td>
+<td class="text-right">185</td>
+</tr><tr>
+<td class="sorting_1">5</td>
+<td>Wolfsburg</td>
+<td>34</td>
+<td class="text-right">18</td>
+<td class="text-right">6</td>
+<td class="text-right">10</td>
+<td class="text-right">63</td>
+<td class="text-right">50</td>
+<td class="text-right">13</td>
+<td class="text-right home">60</td>
+<td class="text-right">550</td>
+<td class="text-right">54</td>
+<td class="text-right">8</td>
+<td class="text-right">523</td>
+<td class="text-right">200</td>
+</tr><tr>
+<td class="sorting_1">6</td>
+<td>M'gladbach</td>
+<td>34</td>
+<td class="text-right">16</td>
+<td class="text-right">7</td>
+<td class="text-right">11</td>
+<td class="text-right">59</td>
+<td class="text-right">43</td>
+<td class="text-right">16</td>
+<td class="text-right home">55</td>
+<td class="text-right">361</td>
+<td class="text-right">50</td>
+<td class="text-right">3</td>
+<td class="text-right">430</td>
+<td class="text-right">169</td>
+</tr><tr>
+<td class="sorting_1">7</td>
+<td>Mainz</td>
+<td>34</td>
+<td class="text-right">16</td>
+<td class="text-right">5</td>
+<td class="text-right">13</td>
+<td class="text-right">52</td>
+<td class="text-right">54</td>
+<td class="text-right">-2</td>
+<td class="text-right home">53</td>
+<td class="text-right">494</td>
+<td class="text-right">53</td>
+<td class="text-right">4</td>
+<td class="text-right">441</td>
+<td class="text-right">163</td>
+</tr><tr>
+<td class="sorting_1">8</td>
+<td>Augsburg</td>
+<td>34</td>
+<td class="text-right">15</td>
+<td class="text-right">7</td>
+<td class="text-right">12</td>
+<td class="text-right">47</td>
+<td class="text-right">47</td>
+<td class="text-right">0</td>
+<td class="text-right home">52</td>
+<td class="text-right">518</td>
+<td class="text-right">61</td>
+<td class="text-right">1</td>
+<td class="text-right">512</td>
+<td class="text-right">159</td>
+</tr><tr>
+<td class="sorting_1">9</td>
+<td>Hoffenheim</td>
+<td>34</td>
+<td class="text-right">11</td>
+<td class="text-right">11</td>
+<td class="text-right">12</td>
+<td class="text-right">72</td>
+<td class="text-right">70</td>
+<td class="text-right">2</td>
+<td class="text-right home">44</td>
+<td class="text-right">658</td>
+<td class="text-right">63</td>
+<td class="text-right">2</td>
+<td class="text-right">496</td>
+<td class="text-right">196</td>
+</tr><tr>
+<td class="sorting_1">10</td>
+<td>Hannover</td>
+<td>34</td>
+<td class="text-right">12</td>
+<td class="text-right">6</td>
+<td class="text-right">16</td>
+<td class="text-right">46</td>
+<td class="text-right">59</td>
+<td class="text-right">-13</td>
+<td class="text-right home">42</td>
+<td class="text-right">591</td>
+<td class="text-right">71</td>
+<td class="text-right">6</td>
+<td class="text-right">469</td>
+<td class="text-right">164</td>
+</tr><tr>
+<td class="sorting_1">11</td>
+<td>Hertha</td>
+<td>34</td>
+<td class="text-right">11</td>
+<td class="text-right">8</td>
+<td class="text-right">15</td>
+<td class="text-right">40</td>
+<td class="text-right">48</td>
+<td class="text-right">-8</td>
+<td class="text-right home">41</td>
+<td class="text-right">552</td>
+<td class="text-right">56</td>
+<td class="text-right">1</td>
+<td class="text-right">383</td>
+<td class="text-right">150</td>
+</tr><tr>
+<td class="sorting_1">12</td>
+<td>Werder Bremen</td>
+<td>34</td>
+<td class="text-right">10</td>
+<td class="text-right">9</td>
+<td class="text-right">15</td>
+<td class="text-right">42</td>
+<td class="text-right">66</td>
+<td class="text-right">-24</td>
+<td class="text-right home">39</td>
+<td class="text-right">551</td>
+<td class="text-right">73</td>
+<td class="text-right">3</td>
+<td class="text-right">367</td>
+<td class="text-right">132</td>
+</tr><tr>
+<td class="sorting_1">13</td>
+<td>Ein Frankfurt</td>
+<td>34</td>
+<td class="text-right">9</td>
+<td class="text-right">9</td>
+<td class="text-right">16</td>
+<td class="text-right">40</td>
+<td class="text-right">57</td>
+<td class="text-right">-17</td>
+<td class="text-right home">36</td>
+<td class="text-right">556</td>
+<td class="text-right">75</td>
+<td class="text-right">2</td>
+<td class="text-right">431</td>
+<td class="text-right">154</td>
+</tr><tr>
+<td class="sorting_1">14</td>
+<td>Freiburg</td>
+<td>34</td>
+<td class="text-right">9</td>
+<td class="text-right">9</td>
+<td class="text-right">16</td>
+<td class="text-right">43</td>
+<td class="text-right">61</td>
+<td class="text-right">-18</td>
+<td class="text-right home">36</td>
+<td class="text-right">513</td>
+<td class="text-right">62</td>
+<td class="text-right">5</td>
+<td class="text-right">370</td>
+<td class="text-right">130</td>
+</tr><tr>
+<td class="sorting_1">15</td>
+<td>Stuttgart</td>
+<td>34</td>
+<td class="text-right">8</td>
+<td class="text-right">8</td>
+<td class="text-right">18</td>
+<td class="text-right">49</td>
+<td class="text-right">62</td>
+<td class="text-right">-13</td>
+<td class="text-right home">32</td>
+<td class="text-right">507</td>
+<td class="text-right">60</td>
+<td class="text-right">5</td>
+<td class="text-right">401</td>
+<td class="text-right">139</td>
+</tr><tr>
+<td class="sorting_1">16</td>
+<td>Hamburg</td>
+<td>34</td>
+<td class="text-right">7</td>
+<td class="text-right">6</td>
+<td class="text-right">21</td>
+<td class="text-right">51</td>
+<td class="text-right">75</td>
+<td class="text-right">-24</td>
+<td class="text-right home">27</td>
+<td class="text-right">537</td>
+<td class="text-right">54</td>
+<td class="text-right">2</td>
+<td class="text-right">500</td>
+<td class="text-right">205</td>
+</tr><tr>
+<td class="sorting_1">17</td>
+<td>Nurnberg</td>
+<td>34</td>
+<td class="text-right">5</td>
+<td class="text-right">11</td>
+<td class="text-right">18</td>
+<td class="text-right">37</td>
+<td class="text-right">70</td>
+<td class="text-right">-33</td>
+<td class="text-right home">26</td>
+<td class="text-right">524</td>
+<td class="text-right">71</td>
+<td class="text-right">4</td>
+<td class="text-right">389</td>
+<td class="text-right">142</td>
+</tr><tr>
+<td class="sorting_1">18</td>
+<td>Braunschweig</td>
+<td>34</td>
+<td class="text-right">6</td>
+<td class="text-right">7</td>
+<td class="text-right">21</td>
+<td class="text-right">29</td>
+<td class="text-right">60</td>
+<td class="text-right">-31</td>
+<td class="text-right home">25</td>
+<td class="text-right">553</td>
+<td class="text-right">62</td>
+<td class="text-right">3</td>
+<td class="text-right">412</td>
+<td class="text-right">119</td>
+</tr></table></body></html>
