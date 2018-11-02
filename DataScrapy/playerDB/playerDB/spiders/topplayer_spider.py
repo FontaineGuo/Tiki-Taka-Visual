@@ -3,7 +3,7 @@ import scrapy
 
 class QuotesSpider(scrapy.Spider):
     name = "topplayer"
-
+   
     def start_requests(self):
         urls = [
             'https://www.whoscored.com/Regions/252/Tournaments/2/Seasons/2458/England-Premier-League'
