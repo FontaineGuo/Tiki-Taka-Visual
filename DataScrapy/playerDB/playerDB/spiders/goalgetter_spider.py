@@ -15,8 +15,10 @@ class GoalGetterSpider(scrapy.Spider):
 
     def parse(self, response):
         data_name = response.xpath('//*[@id="navi"]/div[3]/h1/text()').extract_first()
-        goalgetter_table = response.xpath('//*[@id="site"]/div[3]/div[1]/div/div[3]/div/table/tbody')
+        goalgetter_table = response.xpath('//*[@id="site"]/div[3]/div[1]/div/div[3]/div/table/')
         rows = goalgetter_table.xpath('//tr')
         filename = data_name + '.csv'
         with open(filename, 'wb') as f:
             fwriter = csv.writer(f, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+            # write title
+            fwriter
