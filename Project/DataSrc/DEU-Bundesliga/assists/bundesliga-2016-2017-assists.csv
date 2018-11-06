@@ -1,0 +1,255 @@
+player,country,team,assists
+Emil Forsberg,Sweden,RB Leipzig,21
+Thomas Müller,Germany,Bayern München,13
+Ousmane Dembélé,France,Borussia Dortmund,12
+Vincenzo Grifo,Italy,SC Freiburg,11
+Franck Ribéry,France,Bayern München,11
+Arjen Robben,Netherlands,Bayern München,11
+Fin Bartels,Germany,Werder Bremen,9
+Julian Brandt,Germany,Bayer Leverkusen,9
+Kerem Demirbay,Germany,1899 Hoffenheim,9
+Zlatko Junuzović,Austria,Werder Bremen,9
+Sebastian Rudy,Germany,1899 Hoffenheim,9
+Andrej Kramarić,Croatia,1899 Hoffenheim,8
+Yunus Mallı,Turkey,1. FSV Mainz 05,8
+Yuya Osako,Japan,1. FC Köln,8
+Christian Pulisic,USA,Borussia Dortmund,8
+Max Kruse,Germany,Werder Bremen,7
+Nicolai Müller,Germany,Hamburger SV,7
+Timo Werner,Germany,RB Leipzig,7
+Karim Bellarabi,Germany,Bayer Leverkusen,6
+Gonzalo Castro,Germany,Borussia Dortmund,6
+Mahmoud Dahoud,Germany,Bor. Mönchengladbach,6
+Marcel Heller,Germany,SV Darmstadt 98,6
+Lewis Holtby,Germany,Hamburger SV,6
+Shinji Kagawa,Japan,Borussia Dortmund,6
+Salomon Kalou,Ivory Coast,Hertha BSC,6
+Naby Keïta,Guinea,RB Leipzig,6
+Robert Lewandowski,Poland,Bayern München,6
+Levin Öztunali,Germany,1. FSV Mainz 05,6
+ Raphaël Guerreiro,Portugal,Borussia Dortmund,6
+Lars Stindl,Germany,Bor. Mönchengladbach,6
+Nabil Bentaleb,Algeria,FC Schalke 04,5
+Leonardo Bittencourt,Germany,1. FC Köln,5
+Hakan Çalhanoğlu,Turkey,Bayer Leverkusen,5
+Eric Maxim Choupo-Moting,Cameroon,FC Schalke 04,5
+Jhon Córdoba,Colombia,1. FSV Mainz 05,5
+Marco Fabián,Mexico,Eintracht Frankfurt,5
+Jérôme Gondorf,Germany,SV Darmstadt 98,5
+Kai Havertz,Germany,Bayer Leverkusen,5
+Vedad Ibišević,Bosnia-Herzegovina,Hertha BSC,5
+Sead Kolašinac,Bosnia-Herzegovina,FC Schalke 04,5
+Dario Lezcano,Paraguay,FC Ingolstadt 04,5
+Nils Petersen,Germany,SC Freiburg,5
+Yussuf Poulsen,Denmark,RB Leipzig,5
+Marco Reus,Germany,Borussia Dortmund,5
+Markus Suttner,Austria,FC Ingolstadt 04,5
+ Thiago,Spain,Bayern München,5
+David Alaba,Austria,Bayern München,4
+Nadiem Amiri,Germany,1899 Hoffenheim,4
+ Bartra,Spain,Borussia Dortmund,4
+Daniel Caligiuri,Germany,FC Schalke 04,4
+Timothy Chandler,USA,Eintracht Frankfurt,4
+ Douglas Costa,Brazil,Bayern München,4
+Leon Goretzka,Germany,FC Schalke 04,4
+Pascal Groß,Germany,FC Ingolstadt 04,4
+Janik Haberer,Germany,SC Freiburg,4
+Thorgan Hazard,Belgium,Bor. Mönchengladbach,4
+Christoph Kramer,Germany,Bor. Mönchengladbach,4
+Anthony Modeste,France,1. FC Köln,4
+Marvin Plattenhardt,Germany,Hertha BSC,4
+Marcel Risse,Germany,1. FC Köln,4
+Marcel Sabitzer,Austria,RB Leipzig,4
+André Schürrle,Germany,Borussia Dortmund,4
+Mitchell Weiser,Germany,Hertha BSC,4
+Steven Zuber,Switzerland,1899 Hoffenheim,4
+Halil Altintop,Turkey,FC Augsburg,3
+Charles Aránguiz,Chile,Bayer Leverkusen,3
+Maximilian Arnold,Germany,VfL Wolfsburg,3
+Daniel Baier,Germany,FC Augsburg,3
+Robert Bauer,Germany,Werder Bremen,3
+Jakub Błaszczykowski,Poland,VfL Wolfsburg,3
+Pablo de Blasis,Argentina,1. FSV Mainz 05,3
+Diego Demme,Germany,RB Leipzig,3
+Daniel Didavi,Germany,VfL Wolfsburg,3
+Clemens Fritz,Germany,Werder Bremen,3
+Serge Gnabry,Germany,Werder Bremen,3
+Javier Hernández,Mexico,Bayer Leverkusen,3
+Benjamin Hübner,Germany,1899 Hoffenheim,3
+Miloš Jojić,Serbia,1. FC Köln,3
+Pavel Kadeřábek,Czech Republic,1899 Hoffenheim,3
+Florian Kainz,Austria,Werder Bremen,3
+Ja-cheol Koo,South Korea,FC Augsburg,3
+Filip Kostić,Serbia,Hamburger SV,3
+Philipp Lahm,Germany,Bayern München,3
+Mathew Leckie,Australia,FC Ingolstadt 04,3
+Bastian Oczipka,Germany,Eintracht Frankfurt,3
+Maximilian Philipp,Germany,SC Freiburg,3
+Konstantin Rausch,Russia,1. FC Köln,3
+Ricardo Rodríguez,Switzerland,VfL Wolfsburg,3
+Artjoms Rudņevs,Latvia,1. FC Köln,3
+Jonathan Schmid,France,FC Augsburg,3
+Alessandro Schöpf,Austria,FC Schalke 04,3
+Valentin Stocker,Switzerland,Hertha BSC,3
+Marco Terrazzino,Germany,1899 Hoffenheim,3
+Ibrahima Traoré,Guinea,Bor. Mönchengladbach,3
+Mark Uth,Germany,1899 Hoffenheim,3
+Arturo Vidal,Chile,Bayern München,3
+Kevin Volland,Germany,Bayer Leverkusen,3
+Sandro Wagner,Germany,1899 Hoffenheim,3
+Oscar Wendt,Sweden,Bor. Mönchengladbach,3
+David Abraham,Argentina,Eintracht Frankfurt,2
+Pierre-Emerick Aubameyang,Gabon,Borussia Dortmund,2
+Abdul Rahman Baba,Ghana,FC Schalke 04,2
+Aymane Barkok,Germany,Eintracht Frankfurt,2
+Danny Blum,Germany,Eintracht Frankfurt,2
+Raúl Bobadilla,Paraguay,FC Augsburg,2
+Daniel Brosinski,Germany,1. FSV Mainz 05,2
+Guido Burgstaller,Austria,FC Schalke 04,2
+Oliver Burke,Scotland,RB Leipzig,2
+Almog Cohen,Israel,FC Ingolstadt 04,2
+Antonio Čolak,Croatia,SV Darmstadt 98,2
+Vladimír Darida,Czech Republic,Hertha BSC,2
+Franco Di Santo,Argentina,FC Schalke 04,2
+Julian Draxler,Germany,VfL Wolfsburg,2
+Erik Durm,Germany,Borussia Dortmund,2
+Alexander Esswein,Germany,Hertha BSC,2
+Mike Frantz,Germany,SC Freiburg,2
+Santiago García,Argentina,Werder Bremen,2
+Yannick Gerhardt,Germany,VfL Wolfsburg,2
+Christian Günter,Germany,SC Freiburg,2
+Florent Hadergjonaj,Switzerland,FC Ingolstadt 04,2
+Marcel Halstenberg,Germany,RB Leipzig,2
+Genki Haraguchi,Japan,Hertha BSC,2
+Jonas Hector,Germany,1. FC Köln,2
+Benjamin Henrichs,Germany,Bayer Leverkusen,2
+Mats Hummels,Germany,Bayern München,2
+Aaron Hunt,Germany,Hamburger SV,2
+Szabolcs Huszti,Hungary,Eintracht Frankfurt,2
+Dong-won Ji,South Korea,FC Augsburg,2
+Fabian Johnson,USA,Bor. Mönchengladbach,2
+ Juan Bernat,Spain,Bayern München,2
+Kevin Kampl,Slovenia,Bayer Leverkusen,2
+Thilo Kehrer,Germany,FC Schalke 04,2
+Matthias Lehmann,Germany,1. FC Köln,2
+Philipp Max,Germany,FC Augsburg,2
+Alexander Meier,Germany,Eintracht Frankfurt,2
+Max Meyer,Germany,FC Schalke 04,2
+Emre Mor,Turkey,Borussia Dortmund,2
+Yoshinori Mutō,Japan,1. FSV Mainz 05,2
+Florian Niederlechner,Germany,SC Freiburg,2
+Paul-Georges Ntep,France,VfL Wolfsburg,2
+Claudio Pizarro,Peru,Werder Bremen,2
+ Rafinha,Brazil,Bayern München,2
+Ante Rebić,Croatia,Eintracht Frankfurt,2
+Gōtoku Sakai,Japan,Hamburger SV,2
+Benno Schmitz,Germany,RB Leipzig,2
+Frederik Sørensen,Denmark,1. FC Köln,2
+Pascal Stenzel,Germany,SC Freiburg,2
+Tobias Strobl,Germany,Bor. Mönchengladbach,2
+Niklas Süle,Germany,1899 Hoffenheim,2
+Paul Verhaegh,Netherlands,FC Augsburg,2
+Mario Vrančić,Bosnia-Herzegovina,SV Darmstadt 98,2
+ Wendell,Brazil,Bayer Leverkusen,2
+Bobby Wood,USA,Hamburger SV,2
+ Xabi Alonso,Spain,Bayern München,2
+Simon Zoller,Germany,1. FC Köln,2
+René Adler,Germany,Hamburger SV,1
+Dennis Aogo,Germany,FC Schalke 04,1
+Leon Bailey,Jamaica,Bayer Leverkusen,1
+Philipp Bargfrede,Germany,Werder Bremen,1
+Julian Baumgartlinger,Austria,Bayer Leverkusen,1
+Riechedly Bazoer,Netherlands,VfL Wolfsburg,1
+Stefan Bell,Germany,1. FSV Mainz 05,1
+Lars Bender,Germany,Bayer Leverkusen,1
+ Bernardo,Brazil,RB Leipzig,1
+Ermin Bičakčić,Bosnia-Herzegovina,1899 Hoffenheim,1
+Jérôme Boateng,Germany,Bayern München,1
+ Bojan,Spain,1. FSV Mainz 05,1
+John Anthony Brooks,USA,Hertha BSC,1
+Onur Bulut,Turkey,SC Freiburg,1
+Gaëtan Bussmann,France,1. FSV Mainz 05,1
+Christian Clemens,Germany,1. FC Köln,1
+Kingsley Coman,France,Bayern München,1
+Danny da Costa,Germany,Bayer Leverkusen,1
+Kevin Danso,Austria,FC Augsburg,1
+Thomas Delaney,Denmark,Werder Bremen,1
+Dennis Diekmeier,Germany,Hamburger SV,1
+Giulio Donati,Italy,1. FSV Mainz 05,1
+Bas Dost,Netherlands,VfL Wolfsburg,1
+Albin Ekdal,Sweden,Hamburger SV,1
+Breel Embolo,Switzerland,FC Schalke 04,1
+Alfreð Finnbogason,Iceland,FC Augsburg,1
+Raphael Framberger,Germany,FC Augsburg,1
+Fabian Frei,Switzerland,1. FSV Mainz 05,1
+Ulisses Garcia,Switzerland,Werder Bremen,1
+Theodor Gebre Selassie,Czech Republic,Werder Bremen,1
+Mario Gomez,Germany,VfL Wolfsburg,1
+Mario Götze,Germany,Borussia Dortmund,1
+Jeffrey Gouweleeuw,Netherlands,FC Augsburg,1
+Michael Gregoritsch,Austria,Hamburger SV,1
+Karim Guédé,Slovakia,SC Freiburg,1
+Josuha Guilavogui,France,VfL Wolfsburg,1
+Alexander Hack,Germany,1. FSV Mainz 05,1
+André Hahn,Germany,Bor. Mönchengladbach,1
+Makoto Hasebe,Japan,Eintracht Frankfurt,1
+Dominique Heintz,Germany,1. FC Köln,1
+Patrick Herrmann,Germany,Bor. Mönchengladbach,1
+Lukas Hinterseer,Austria,FC Ingolstadt 04,1
+Nicolas Höfler,Germany,SC Freiburg,1
+Jonas Hofmann,Germany,Bor. Mönchengladbach,1
+Marco Höger,Germany,1. FC Köln,1
+Gerrit Holtmann,Germany,1. FSV Mainz 05,1
+Jannes Horn,Germany,VfL Wolfsburg,1
+Benedikt Höwedes,Germany,FC Schalke 04,1
+Branimir Hrgota,Sweden,Eintracht Frankfurt,1
+Stefan Ilsanker,Austria,RB Leipzig,1
+ Jairo,Spain,1. FSV Mainz 05,1
+ Javi Martínez,Spain,Bayern München,1
+Aron Jóhannsson,USA,Werder Bremen,1
+Anthony Jung,Germany,FC Ingolstadt 04,1
+Sebastian Jung,Germany,VfL Wolfsburg,1
+Stefan Kießling,Germany,Bayer Leverkusen,1
+Joshua Kimmich,Germany,Bayern München,1
+Sonny Kittel,Germany,FC Ingolstadt 04,1
+Lukas Klünter,Germany,1. FC Köln,1
+Robin Knoche,Germany,VfL Wolfsburg,1
+Dominik Kohr,Germany,FC Augsburg,1
+Yevhen Konoplyanka,Ukraine,FC Schalke 04,1
+Lukas Kübler,Germany,SC Freiburg,1
+Fabian Lustenberger,Switzerland,Hertha BSC,1
+Ousman Manneh,Gambia,Werder Bremen,1
+Maximilian Mittelstädt,Germany,Hertha BSC,1
+Niklas Moisander,Finland,Werder Bremen,1
+Jan Morávek,Czech Republic,FC Augsburg,1
+Håvard Nielsen,Norway,SC Freiburg,1
+Paweł Olkowski,Poland,1. FC Köln,1
+Willi Orban,Hungary,RB Leipzig,1
+Matthias Ostrzolek,Germany,Hamburger SV,1
+Salih Özcan,Germany,1. FC Köln,1
+Peter Pekarík,Slovakia,Hertha BSC,1
+Łukasz Piszczek,Poland,Borussia Dortmund,1
+Felix Platte,Germany,SV Darmstadt 98,1
+Adrián Ramos,Colombia,Borussia Dortmund,1
+Sidney Sam,Germany,SV Darmstadt 98,1
+Julian Schieber,Germany,Hertha BSC,1
+Marcel Schmelzer,Germany,Borussia Dortmund,1
+Niklas Schmidt,Germany,Werder Bremen,1
+Nico Schulz,Germany,Bor. Mönchengladbach,1
+Pirmin Schwegler,Switzerland,1899 Hoffenheim,1
+Paul Seguin,Germany,VfL Wolfsburg,1
+Davie Selke,Germany,RB Leipzig,1
+Sandro Sirigu,Germany,SV Darmstadt 98,1
+Çağlar Söyüncü,Turkey,SC Freiburg,1
+Niklas Stark,Germany,Hertha BSC,1
+Markus Steinhöfer,Germany,SV Darmstadt 98,1
+Aytaç Sulu,Turkey,SV Darmstadt 98,1
+Ádám Szalai,Hungary,1899 Hoffenheim,1
+Jonathan Tah,Germany,Bayer Leverkusen,1
+Georg Teigl,Austria,FC Augsburg,1
+Marcel Tisserand,Congo DR,FC Ingolstadt 04,1
+Jeremy Toljan,Germany,1899 Hoffenheim,1
+Christian Träsch,Germany,VfL Wolfsburg,1
+ Vallejo,Spain,Eintracht Frankfurt,1
+Jannik Vestergaard,Denmark,Bor. Mönchengladbach,1
+Luca Waldschmidt,Germany,Hamburger SV,1
