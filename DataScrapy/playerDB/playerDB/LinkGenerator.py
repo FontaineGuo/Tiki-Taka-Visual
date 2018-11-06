@@ -1,9 +1,9 @@
 
 import re
 
-base_url = 'https://www.worldfootball.net/%s/%s-%s/ '
+base_url = 'https://www.worldfootball.net/%s/%s-%s/'
 LeagueDir = {'PrimerLeague':'eng-premier-league', 'Ligue-1':'fra-ligue-1',
-              'SerieA':'ita-serie-a', 'LaLiga':'eng-premier-league',
+              'SerieA':'ita-serie-a', 'LaLiga':'esp-primera-division',
               'Bundesliga':'bundesliga'}
 
 
