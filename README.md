@@ -8,4 +8,6 @@ A data visualization of soccer club and the data of 5 leagues
 source :[football-data](http://www.football-data.co.uk/data.php)
 
 ## 10th week
-+ find goal getter/assist/topgoal data
++ ~~implement data scrapy by python~~
++ ~~find goal getter/assist/topgoal data~~
++ design platform UI and function
