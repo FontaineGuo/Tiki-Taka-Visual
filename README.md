@@ -7,4 +7,5 @@ A data visualization of soccer club and the data of 5 leagues
 
 source :[football-data](http://www.football-data.co.uk/data.php)
 
-+ find player data
+## 10th week
++ find goal getter/assist/topgoal data
