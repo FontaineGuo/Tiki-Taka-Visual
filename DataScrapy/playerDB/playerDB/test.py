@@ -15,6 +15,15 @@ import re
 # for n in ab[1:]:
 #     print(n)
 
-pattern = r'\((\d{0,2})\)'
+# pattern = r'\((\d{0,2})\)'
 
-print(re.search(pattern, ' (14)')[1])
+# print(re.search(pattern, '\'  (16)\'')[1])
+
+# link = 'https://www.worldfootball.net/goalgetter/eng-premier-league-2010-2011/'
+# name_group = link.split('/')
+# print(name_group[-2]+'-'+ name_group[-3])
+
+l1 = ['a','b', 'c']
+l2 = ['d', 'e']
+l1.extend(l2)
+print(l1)
