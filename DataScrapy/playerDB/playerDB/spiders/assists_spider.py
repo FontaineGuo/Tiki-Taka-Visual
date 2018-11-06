@@ -1,5 +1,5 @@
 import scrapy
-import LinkGenerator
+#import module.LinkGenerator as LinkGenerator
 
 class AssistsSpider(scrapy.Spider):
     name = "assists"

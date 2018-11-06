@@ -1,24 +1,36 @@
 import scrapy
-import LinkGenerator
+import playerDB.LinkGenerator as LinkGenerator
 import csv
+import re
+import sys
 
 class GoalGetterSpider(scrapy.Spider):
     name = "goalgetter"
-   
+    
     def start_requests(self):
-        # for League in LinkGenerator.LeagueDir.keys():
-        #     urls = LinkGenerator.generate_goalgetter_links(League)
+
+       
         urls = []
         urls.append(LinkGenerator.generate_goalgetter_year_link('PrimerLeague', '2010'))
+
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
         data_name = response.xpath('//*[@id="navi"]/div[3]/h1/text()').extract_first()
-        goalgetter_table = response.xpath('//*[@id="site"]/div[3]/div[1]/div/div[3]/div/table/')
-        rows = goalgetter_table.xpath('//tr')
+        goalgetter_trs = response.xpath('table.standard_tabelle tr')
         filename = data_name + '.csv'
         with open(filename, 'wb') as f:
-            fwriter = csv.writer(f, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+            csv_writer = csv.writer(f, delimiter=',' ,lineterminator='\n', quoting=csv.QUOTE_MINIMAL)
+            pattern = r'\((\d{0,2})\)'
             # write title
-            fwriter
+            csv_writer.writerow(['player', 'country', 'team', 'goal', 'penalty'])
+            for row in goalgetter_trs[1:]:
+                tds = row.css('td')
+                name = tds[1].css('a::text').extract()
+                country = tds[3].css('td::text').extract()
+                team = tds[4].css('a')[1].css('a::text').extract()
+                goals = tds[5].css('b::text').extract()
+                penalty = re.search(pattern, tds[5].css('td::text').extract())[1]
+
+                csv_writer.writerow([name, country, team, int(goals), int(penalty)])
