@@ -12,7 +12,7 @@ class GoalGetterSpider(scrapy.Spider):
        
         urls = []
         urls.append(LinkGenerator.generate_goalgetter_year_link('PrimerLeague', '2010'))
-
+        # urls.append('https://www.worldfootball.net/goalgetter/eng-premier-league-2010-2011/')
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
