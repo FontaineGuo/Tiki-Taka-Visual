@@ -1,0 +1,260 @@
+player,country,team,goal,penalty
+ Cristiano Ronaldo,Portugal,Real Madrid,31,6
+Lionel Messi,Argentina,FC Barcelona,28,6
+ Diego Costa,Spain,Atlético Madrid,27,5
+Alexis Sánchez,Chile,FC Barcelona,19,0
+Karim Benzema,France,Real Madrid,17,0
+ Aduriz,Spain,Athletic Bilbao,16,2
+Antoine Griezmann,France,Real Sociedad,16,0
+Carlos Vela,Mexico,Real Sociedad,16,2
+Gareth Bale,Wales,Real Madrid,15,0
+Kevin Gameiro,France,Sevilla FC,15,2
+ Javi Guerra,Spain,Real Valladolid,15,1
+ Pedro,Spain,FC Barcelona,15,0
+Carlos Bacca,Colombia,Sevilla FC,14,1
+ Nolito,Spain,Celta Vigo,14,2
+Ikechukwu Uche,Nigeria,Villarreal CF,14,0
+ David Villa,Spain,Atlético Madrid,13,1
+ Oriol Riera,Spain,CA Osasuna,13,0
+ Charles,Brazil,Celta Vigo,12,0
+Youssef El-Arabi,Morocco,Granada CF,12,1
+Joaquin Larrivey,Argentina,Rayo Vallecano,12,3
+Ivan Rakitić,Croatia,Sevilla FC,12,4
+ Sergio García,Spain,Espanyol Barcelona,12,5
+ Bueno,Spain,Rayo Vallecano,11,0
+Giovani dos Santos,Mexico,Villarreal CF,11,1
+ Jonas,Brazil,Valencia CF,10,1
+Jérémy Perbet,France,Villarreal CF,10,1
+ Raúl García,Spain,Atlético Madrid,10,0
+ Rubén Castro,Spain,Real Betis,10,0
+ Molina,Spain,Real Betis,9,1
+ Neymar,Brazil,FC Barcelona,9,1
+ Agirretxe,Spain,Real Sociedad,8,0
+ Cesc Fàbregas,Spain,FC Barcelona,8,2
+ Ibai,Spain,Athletic Bilbao,8,1
+ Isco,Spain,Real Madrid,8,0
+ Morata,Spain,Real Madrid,8,0
+ Rodri,Spain,UD Almería,8,0
+ Verza,Spain,UD Almería,8,7
+ Barral,Spain,Levante UD,7,1
+ Lafita,Spain,Getafe CF,7,0
+ Muniain,Spain,Athletic Bilbao,7,1
+ Pedro León,Spain,Getafe CF,7,0
+ Aleix Vidal,Spain,UD Almería,6,1
+Richmond Boakye,Ghana,Elche CF,6,0
+ Bruno Soriano,Spain,Villarreal CF,6,3
+Ciprian Marica,Romania,Getafe CF,6,1
+ Paco Alcácer,Spain,Valencia CF,6,0
+Roque Santa Cruz,Paraguay,Málaga CF,6,0
+Cristhian Stuani,Uruguay,Espanyol Barcelona,6,0
+ Susaeta,Spain,Athletic Bilbao,6,0
+ Álex López,Spain,Celta Vigo,5,0
+ Ander Herrera,Spain,Athletic Bilbao,5,0
+ Camacho,Spain,Málaga CF,5,0
+ Coro,Spain,Elche CF,5,0
+ De Marcos,Spain,Athletic Bilbao,5,0
+ Jesé,Spain,Real Madrid,5,0
+ Jonathan Viera,Spain,Rayo Vallecano,5,3
+ Koke,Spain,Atlético Madrid,5,0
+ Mikel Rico,Spain,Athletic Bilbao,5,0
+Fabián Orellana,Chile,Celta Vigo,5,0
+Pablo Piatti,Argentina,Valencia CF,5,0
+ Piti,Spain,Granada CF,5,0
+ Roberto Torres,Spain,CA Osasuna,5,0
+ San José,Spain,Athletic Bilbao,5,0
+Emiliano Armenteros,Argentina,CA Osasuna,4,0
+Diego Colotto,Argentina,Espanyol Barcelona,4,0
+ Colunga,Spain,Getafe CF,4,0
+Jhon Córdoba,Colombia,Espanyol Barcelona,4,0
+Ángel Di María,Argentina,Real Madrid,4,0
+Pape Diop,Senegal,Levante UD,4,0
+Nabil El Zhar,Morocco,Levante UD,4,2
+Sofiane Féghouli,Algeria,Valencia CF,4,0
+Diego Godín,Uruguay,Atlético Madrid,4,0
+ Jairo,Spain,Sevilla FC,4,0
+ Jonathan Pereira,Spain,Villarreal CF,4,0
+ Juanmi,Spain,Málaga CF,4,0
+ Óscar Díaz,Spain,UD Almería,4,0
+Humberto Osorio,Colombia,Real Valladolid,4,0
+ Parejo,Spain,Valencia CF,4,0
+ Pepe,Portugal,Real Madrid,4,0
+ Rafinha,Brazil,Celta Vigo,4,0
+ Samuel,Spain,Málaga CF,4,0
+ Sergio Ramos,Spain,Real Madrid,4,0
+ Sevilla,Spain,Real Betis,4,0
+ Soriano,Spain,UD Almería,4,0
+ Víctor Sánchez,Spain,Espanyol Barcelona,4,0
+ Vitolo,Spain,Sevilla FC,4,0
+Javier Acuña,Paraguay,CA Osasuna,3,0
+ Adriano,Brazil,FC Barcelona,3,0
+ Alberto Moreno,Spain,Sevilla FC,3,0
+Thievy Bifouma,Congo,Espanyol Barcelona,3,0
+Yacine Brahimi,Algeria,Granada CF,3,1
+ Cani,Spain,Villarreal CF,3,0
+ Coke,Spain,Sevilla FC,3,0
+ Cristian Herrera,Spain,Elche CF,3,0
+Babá Diawara,Senegal,Levante UD,3,0
+Patrick Ebert,Germany,Real Valladolid,3,0
+ Edu Albácar,Spain,Elche CF,3,3
+Mounir El Hamdaoui,Morocco,Málaga CF,3,0
+ Gabi,Spain,Atlético Madrid,3,0
+ Hélder Postiga,Portugal,Valencia CF,3,0
+ Iago Falqué,Spain,Rayo Vallecano,3,0
+ Iborra,Spain,Sevilla FC,3,0
+ Iniesta,Spain,FC Barcelona,3,1
+Andreas Ivanschitz,Austria,Levante UD,3,0
+Daniel Larsson,Sweden,Real Valladolid,3,0
+Lisandro López,Argentina,Getafe CF,3,0
+Stéphane M'bia,Cameroon,Sevilla FC,3,0
+ Manucho,Angola,Real Valladolid,3,0
+Jérémy Mathieu,France,Valencia CF,3,0
+Dorlan Pabón,Colombia,Valencia CF,3,0
+ Pizzi,Portugal,Espanyol Barcelona,3,0
+ Portillo,Spain,Málaga CF,3,0
+ Ricardo Costa,Portugal,Valencia CF,3,0
+ Rubén Pardo,Spain,Real Sociedad,3,0
+ Rubén Rochina,Spain,Rayo Vallecano,3,0
+ Suso,Spain,UD Almería,3,0
+Arda Turan,Turkey,Atlético Madrid,3,0
+Eduardo Vargas,Chile,Valencia CF,3,0
+ Xavi,Spain,FC Barcelona,3,0
+ Álvaro Cejudo,Spain,CA Osasuna,2,0
+Nordin Amrabat,Morocco,Málaga CF,2,1
+ Ángel,Spain,Levante UD,2,0
+ Ansotegi,Spain,Real Sociedad,2,0
+Ramon Azeez,Nigeria,UD Almería,2,0
+ Canales,Spain,Real Sociedad,2,0
+Nery Castillo,Mexico,Rayo Vallecano,2,1
+Gonzalo Castro,Uruguay,Real Sociedad,2,0
+ Dani Alves,Brazil,FC Barcelona,2,0
+ Dani Carvajal,Spain,Real Madrid,2,0
+ Daniel Carriço,Portugal,Sevilla FC,2,0
+ David López,Spain,Espanyol Barcelona,2,0
+ Duda,Portugal,Málaga CF,2,1
+ Eliseu,Portugal,Málaga CF,2,0
+ Escudero,Spain,Getafe CF,2,0
+Federico Fazio,Argentina,Sevilla FC,2,0
+Augusto Fernández,Argentina,Celta Vigo,2,0
+ Fidel,Spain,Elche CF,2,0
+ Fran Rico,Spain,Granada CF,2,1
+ Gálvez,Spain,Rayo Vallecano,2,0
+ Gurpegi,Spain,Athletic Bilbao,2,0
+Odion Ighalo,Nigeria,Granada CF,2,0
+ Illarra,Spain,Real Madrid,2,0
+ Iñigo Martínez,Spain,Real Sociedad,2,0
+ Javi Chica,Spain,Real Betis,2,0
+ Javi Fuego,Spain,Valencia CF,2,0
+ Javi Márquez,Spain,Elche CF,2,0
+Aymeric Laporte,France,Athletic Bilbao,2,0
+ Manu del Moral,Spain,Elche CF,2,0
+ Miku,Venezuela,Getafe CF,2,0
+ Miranda,Brazil,Atlético Madrid,2,0
+ Moi Gómez,Spain,Villarreal CF,2,0
+ Oier,Spain,CA Osasuna,2,0
+ Pina,Spain,Villarreal CF,2,0
+ Piqué,Spain,FC Barcelona,2,0
+ Recio,Spain,Granada CF,2,0
+ Riki,Spain,Granada CF,2,0
+ Rubén García,Spain,Levante UD,2,0
+ Santi Mina,Spain,Celta Vigo,2,0
+ Saúl,Spain,Rayo Vallecano,2,0
+Haris Seferović,Switzerland,Real Sociedad,2,0
+ Sergi Darder,Spain,Málaga CF,2,0
+ Tiago,Portugal,Atlético Madrid,2,0
+ Trigueros,Spain,Villarreal CF,2,0
+ Verdú,Spain,Real Betis,2,0
+Loukas Vyntra,Greece,Levante UD,2,0
+ Xabi Prieto,Spain,Real Sociedad,2,0
+ Aarón,Spain,Elche CF,1,0
+ Adrián,Spain,Atlético Madrid,1,0
+ Adrián,Spain,Rayo Vallecano,1,0
+ Alberto Perea,Spain,Rayo Vallecano,1,0
+Toby Alderweireld,Belgium,Atlético Madrid,1,0
+ Álvaro Arroyo,Spain,Getafe CF,1,0
+ Amaya,Spain,Real Betis,1,0
+Javier Aquino,Mexico,Villarreal CF,1,0
+ Arbilla,Spain,Rayo Vallecano,1,0
+ Arribas,Spain,CA Osasuna,1,0
+Éver Banega,Argentina,Valencia CF,1,1
+ Bartra,Spain,FC Barcelona,1,0
+ Beñat,Spain,Athletic Bilbao,1,0
+ Borja Oubiña,Spain,Celta Vigo,1,0
+ Busquets,Spain,FC Barcelona,1,0
+Gustavo Cabral,Argentina,Celta Vigo,1,0
+ Cala,Spain,Sevilla FC,1,0
+ Carles Gil,Spain,Elche CF,1,0
+ Corona,Spain,UD Almería,1,0
+ Cote,Spain,Real Sociedad,1,0
+ Cristian Tello,Spain,FC Barcelona,1,0
+ De la Bella,Spain,Real Sociedad,1,0
+ Diego,Brazil,Atlético Madrid,1,0
+ Diego Castro,Spain,Getafe CF,1,1
+ Diogo,Portugal,Sevilla FC,1,0
+Sebastián Dubarbier,Argentina,UD Almería,1,0
+Sebastián Fernández,Uruguay,Málaga CF,1,0
+ Fran Vélez,Spain,UD Almería,1,0
+Gilberto García,Colombia,Real Valladolid,1,0
+ Guillermo,Spain,Athletic Bilbao,1,0
+ Hélder Barbosa,Portugal,UD Almería,1,0
+ Hicham,Spain,UD Almería,1,0
+Nosa Igiebor,Nigeria,Real Betis,1,0
+ Íñigo López,Spain,Celta Vigo,1,0
+ Iraola,Spain,Athletic Bilbao,1,0
+Manuel Iturra,Chile,Granada CF,1,0
+ Jaume Costa,Spain,Villarreal CF,1,0
+ Jesús Rueda,Spain,Real Valladolid,1,0
+ Jordi Figueras,Spain,Real Betis,1,0
+ Juan Bernat,Spain,Valencia CF,1,0
+ Juanfran,Spain,Real Betis,1,0
+Seydou Keita,Mali,Valencia CF,1,0
+Sami Khedira,Germany,Real Madrid,1,0
+ Kike Sola,Spain,Athletic Bilbao,1,0
+ Lanzarote,Spain,Espanyol Barcelona,1,0
+ Leo Baptistão,Brazil,Atlético Madrid,1,0
+ Lombán,Spain,Elche CF,1,0
+ Marc Valiente,Spain,Real Valladolid,1,0
+ Marcelo,Brazil,Real Madrid,1,0
+ Mario,Spain,Villarreal CF,1,0
+ Markel Bergara,Spain,Real Sociedad,1,0
+Luka Modrić,Croatia,Real Madrid,1,0
+Pedro Morales,Chile,Málaga CF,1,0
+Héctor Moreno,Mexico,Espanyol Barcelona,1,0
+Jeison Murillo,Colombia,Granada CF,1,0
+Mateo Musacchio,Argentina,Villarreal CF,1,0
+ Navarro,Spain,Levante UD,1,0
+ Óliver Torres,Spain,Atlético Madrid,1,0
+ Óscar,Spain,Real Valladolid,1,0
+ Pablo Sarabia,Spain,Getafe CF,1,0
+Bartłomiej Pawłowski,Poland,Málaga CF,1,0
+ Pedro López,Spain,Levante UD,1,0
+ Pedro Ríos,Spain,Levante UD,1,0
+ Peña,Spain,Real Valladolid,1,0
+Hernán Pérez,Paraguay,Villarreal CF,1,0
+Pablo Pérez,Argentina,Málaga CF,1,0
+Diego Perotti,Argentina,Sevilla FC,1,0
+ Puñal,Spain,CA Osasuna,1,0
+ Puyol,Spain,FC Barcelona,1,0
+Valdet Rama,Albania,Real Valladolid,1,0
+Lorenzo Reyes,Chile,Real Betis,1,0
+Garry Rodrigues,Cape Verde,Elche CF,1,0
+Braian Rodríguez,Uruguay,Real Betis,1,0
+Cristian Rodríguez,Uruguay,Atlético Madrid,1,0
+Fausto Rossi,Italy,Real Valladolid,1,0
+ Rúben Vezo,Portugal,Valencia CF,1,0
+Antonio Rukavina,Serbia,Real Valladolid,1,0
+Cristian Săpunaru,Romania,Elche CF,1,0
+ Simão,Mozambique,Levante UD,1,0
+Damián Suárez,Uruguay,Elche CF,1,1
+Fernando Tissone,Argentina,Málaga CF,1,0
+Marco Torsiglieri,Argentina,UD Almería,1,0
+ Trashorras,Spain,Rayo Vallecano,1,0
+ Trujillo,Spain,UD Almería,1,0
+ Víctor Casadesús,Spain,Levante UD,1,0
+ Víctor Pérez,Spain,Real Valladolid,1,0
+ Víctor Ruiz,Spain,Valencia CF,1,0
+ Weligton,Brazil,Málaga CF,1,0
+ Xumetra,Spain,Levante UD,1,0
+Aleksandr Yakovenko,Ukraine,Málaga CF,1,0
+Hassan Yebda,Algeria,Granada CF,1,0
+Jonathan Zongo,Burkina Faso,UD Almería,1,0
+ Zurutuza,Spain,Real Sociedad,1,0
