@@ -1,0 +1,30 @@
+name: tikitaka_env
+channels:
+  - defaults
+dependencies:
+  - certifi=2018.10.15=py36_0
+  - click=7.0=py36_0
+  - flask=1.0.2=py36_1
+  - itsdangerous=1.1.0=py36_0
+  - jinja2=2.10=py36_0
+  - markupsafe=1.1.0=py36he774522_0
+  - pip=18.1=py36_0
+  - python=3.6.7=h33f27b4_1
+  - setuptools=40.6.2=py36_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.15.26706=h3a45250_0
+  - werkzeug=0.14.1=py36_0
+  - wheel=0.32.3=py36_0
+  - wincertstore=0.2=py36h7fe50ca_0
+  - pip:
+    - dukpy==0.2.2
+    - future==0.17.1
+    - javascripthon==0.10
+    - jupyter-echarts-pypkg==0.1.4
+    - lml==0.0.7
+    - macropy3==1.1.0b2
+    - pyecharts==0.5.11
+    - pyecharts-javascripthon==0.0.6
+    - pyecharts-jupyter-installer==0.0.3
+prefix: H:\Anaconda3\envs\tikitaka_env
+
