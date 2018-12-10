@@ -1,0 +1,329 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>League Table</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr><th class="sorting_asc" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Position: activate to sort column descending" style="width: 100px;">Position</th><th class="sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Team: activate to sort column ascending" style="width: 226px;">Team</th><th class="sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Played: activate to sort column ascending" style="width: 83px;">Played</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="W: activate to sort column ascending" style="width: 28px;">W</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="D: activate to sort column ascending" style="width: 25px;">D</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="L: activate to sort column ascending" style="width: 20px;">L</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="F: activate to sort column ascending" style="width: 21px;">F</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="A: activate to sort column ascending" style="width: 23px;">A</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="GD: activate to sort column ascending" style="width: 40px;">GD</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Pts: activate to sort column ascending" style="width: 45px;">Pts</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Fl: activate to sort column ascending" style="width: 30px;">Fl</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Y: activate to sort column ascending" style="width: 22px;">Y</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="R: activate to sort column ascending" style="width: 27px;">R</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Sh: activate to sort column ascending" style="width: 38px;">Sh</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="ShT: activate to sort column ascending" style="width: 51px;">ShT</th></tr><tr><td colspan="15" rowspan="1">
+<b>Notes:</b><br>
+Key to column headings:-
+<strong>Fl</strong> = Number of Fouls
+<strong>Y </strong>= Number of Yellow cards
+<strong>R</strong> = Number of Reds
+<strong>Sh</strong> = Number of Shots
+<strong>ShT</strong> = Number of Shots on Target
+</td></tr><tr>
+<td class="sorting_1">1</td>
+<td>Paris SG</td>
+<td>38</td>
+<td class="text-right">24</td>
+<td class="text-right">11</td>
+<td class="text-right">3</td>
+<td class="text-right">83</td>
+<td class="text-right">36</td>
+<td class="text-right">47</td>
+<td class="text-right home">83</td>
+<td class="text-right">440</td>
+<td class="text-right">63</td>
+<td class="text-right">3</td>
+<td class="text-right">480</td>
+<td class="text-right">221</td>
+</tr><tr>
+<td class="sorting_1">2</td>
+<td>Lyon</td>
+<td>38</td>
+<td class="text-right">22</td>
+<td class="text-right">9</td>
+<td class="text-right">7</td>
+<td class="text-right">72</td>
+<td class="text-right">33</td>
+<td class="text-right">39</td>
+<td class="text-right home">75</td>
+<td class="text-right">581</td>
+<td class="text-right">64</td>
+<td class="text-right">1</td>
+<td class="text-right">523</td>
+<td class="text-right">219</td>
+</tr><tr>
+<td class="sorting_1">3</td>
+<td>Monaco</td>
+<td>38</td>
+<td class="text-right">20</td>
+<td class="text-right">11</td>
+<td class="text-right">7</td>
+<td class="text-right">51</td>
+<td class="text-right">26</td>
+<td class="text-right">25</td>
+<td class="text-right home">71</td>
+<td class="text-right">506</td>
+<td class="text-right">58</td>
+<td class="text-right">5</td>
+<td class="text-right">451</td>
+<td class="text-right">165</td>
+</tr><tr>
+<td class="sorting_1">4</td>
+<td>Marseille</td>
+<td>38</td>
+<td class="text-right">21</td>
+<td class="text-right">6</td>
+<td class="text-right">11</td>
+<td class="text-right">76</td>
+<td class="text-right">42</td>
+<td class="text-right">34</td>
+<td class="text-right home">69</td>
+<td class="text-right">552</td>
+<td class="text-right">65</td>
+<td class="text-right">6</td>
+<td class="text-right">578</td>
+<td class="text-right">203</td>
+</tr><tr>
+<td class="sorting_1">5</td>
+<td>St Etienne</td>
+<td>38</td>
+<td class="text-right">19</td>
+<td class="text-right">12</td>
+<td class="text-right">7</td>
+<td class="text-right">51</td>
+<td class="text-right">30</td>
+<td class="text-right">21</td>
+<td class="text-right home">69</td>
+<td class="text-right">557</td>
+<td class="text-right">66</td>
+<td class="text-right">2</td>
+<td class="text-right">445</td>
+<td class="text-right">152</td>
+</tr><tr>
+<td class="sorting_1">6</td>
+<td>Bordeaux</td>
+<td>38</td>
+<td class="text-right">17</td>
+<td class="text-right">12</td>
+<td class="text-right">9</td>
+<td class="text-right">47</td>
+<td class="text-right">44</td>
+<td class="text-right">3</td>
+<td class="text-right home">63</td>
+<td class="text-right">503</td>
+<td class="text-right">61</td>
+<td class="text-right">5</td>
+<td class="text-right">486</td>
+<td class="text-right">159</td>
+</tr><tr>
+<td class="sorting_1">7</td>
+<td>Montpellier</td>
+<td>38</td>
+<td class="text-right">16</td>
+<td class="text-right">8</td>
+<td class="text-right">14</td>
+<td class="text-right">46</td>
+<td class="text-right">39</td>
+<td class="text-right">7</td>
+<td class="text-right home">56</td>
+<td class="text-right">518</td>
+<td class="text-right">51</td>
+<td class="text-right">1</td>
+<td class="text-right">394</td>
+<td class="text-right">142</td>
+</tr><tr>
+<td class="sorting_1">8</td>
+<td>Lille</td>
+<td>38</td>
+<td class="text-right">16</td>
+<td class="text-right">8</td>
+<td class="text-right">14</td>
+<td class="text-right">43</td>
+<td class="text-right">42</td>
+<td class="text-right">1</td>
+<td class="text-right home">56</td>
+<td class="text-right">462</td>
+<td class="text-right">63</td>
+<td class="text-right">4</td>
+<td class="text-right">461</td>
+<td class="text-right">148</td>
+</tr><tr>
+<td class="sorting_1">9</td>
+<td>Rennes</td>
+<td>38</td>
+<td class="text-right">13</td>
+<td class="text-right">11</td>
+<td class="text-right">14</td>
+<td class="text-right">35</td>
+<td class="text-right">42</td>
+<td class="text-right">-7</td>
+<td class="text-right home">50</td>
+<td class="text-right">482</td>
+<td class="text-right">55</td>
+<td class="text-right">1</td>
+<td class="text-right">360</td>
+<td class="text-right">125</td>
+</tr><tr>
+<td class="sorting_1">10</td>
+<td>Guingamp</td>
+<td>38</td>
+<td class="text-right">15</td>
+<td class="text-right">4</td>
+<td class="text-right">19</td>
+<td class="text-right">41</td>
+<td class="text-right">55</td>
+<td class="text-right">-14</td>
+<td class="text-right home">49</td>
+<td class="text-right">476</td>
+<td class="text-right">58</td>
+<td class="text-right">7</td>
+<td class="text-right">354</td>
+<td class="text-right">135</td>
+</tr><tr>
+<td class="sorting_1">11</td>
+<td>Nice</td>
+<td>38</td>
+<td class="text-right">13</td>
+<td class="text-right">9</td>
+<td class="text-right">16</td>
+<td class="text-right">44</td>
+<td class="text-right">53</td>
+<td class="text-right">-9</td>
+<td class="text-right home">48</td>
+<td class="text-right">546</td>
+<td class="text-right">84</td>
+<td class="text-right">6</td>
+<td class="text-right">414</td>
+<td class="text-right">139</td>
+</tr><tr>
+<td class="sorting_1">12</td>
+<td>Bastia</td>
+<td>38</td>
+<td class="text-right">12</td>
+<td class="text-right">11</td>
+<td class="text-right">15</td>
+<td class="text-right">37</td>
+<td class="text-right">46</td>
+<td class="text-right">-9</td>
+<td class="text-right home">47</td>
+<td class="text-right">567</td>
+<td class="text-right">76</td>
+<td class="text-right">5</td>
+<td class="text-right">319</td>
+<td class="text-right">119</td>
+</tr><tr>
+<td class="sorting_1">13</td>
+<td>Caen</td>
+<td>38</td>
+<td class="text-right">12</td>
+<td class="text-right">10</td>
+<td class="text-right">16</td>
+<td class="text-right">54</td>
+<td class="text-right">55</td>
+<td class="text-right">-1</td>
+<td class="text-right home">46</td>
+<td class="text-right">447</td>
+<td class="text-right">43</td>
+<td class="text-right">6</td>
+<td class="text-right">459</td>
+<td class="text-right">156</td>
+</tr><tr>
+<td class="sorting_1">14</td>
+<td>Nantes</td>
+<td>38</td>
+<td class="text-right">11</td>
+<td class="text-right">12</td>
+<td class="text-right">15</td>
+<td class="text-right">29</td>
+<td class="text-right">40</td>
+<td class="text-right">-11</td>
+<td class="text-right home">45</td>
+<td class="text-right">567</td>
+<td class="text-right">70</td>
+<td class="text-right">3</td>
+<td class="text-right">419</td>
+<td class="text-right">135</td>
+</tr><tr>
+<td class="sorting_1">15</td>
+<td>Reims</td>
+<td>38</td>
+<td class="text-right">12</td>
+<td class="text-right">8</td>
+<td class="text-right">18</td>
+<td class="text-right">47</td>
+<td class="text-right">66</td>
+<td class="text-right">-19</td>
+<td class="text-right home">44</td>
+<td class="text-right">544</td>
+<td class="text-right">76</td>
+<td class="text-right">4</td>
+<td class="text-right">436</td>
+<td class="text-right">137</td>
+</tr><tr>
+<td class="sorting_1">16</td>
+<td>Lorient</td>
+<td>38</td>
+<td class="text-right">12</td>
+<td class="text-right">7</td>
+<td class="text-right">19</td>
+<td class="text-right">44</td>
+<td class="text-right">50</td>
+<td class="text-right">-6</td>
+<td class="text-right home">43</td>
+<td class="text-right">456</td>
+<td class="text-right">54</td>
+<td class="text-right">2</td>
+<td class="text-right">481</td>
+<td class="text-right">173</td>
+</tr><tr>
+<td class="sorting_1">17</td>
+<td>Toulouse</td>
+<td>38</td>
+<td class="text-right">12</td>
+<td class="text-right">6</td>
+<td class="text-right">20</td>
+<td class="text-right">43</td>
+<td class="text-right">64</td>
+<td class="text-right">-21</td>
+<td class="text-right home">42</td>
+<td class="text-right">578</td>
+<td class="text-right">61</td>
+<td class="text-right">5</td>
+<td class="text-right">428</td>
+<td class="text-right">127</td>
+</tr><tr>
+<td class="sorting_1">18</td>
+<td>Evian Thonon Gaillard</td>
+<td>38</td>
+<td class="text-right">11</td>
+<td class="text-right">4</td>
+<td class="text-right">23</td>
+<td class="text-right">41</td>
+<td class="text-right">62</td>
+<td class="text-right">-21</td>
+<td class="text-right home">37</td>
+<td class="text-right">533</td>
+<td class="text-right">66</td>
+<td class="text-right">4</td>
+<td class="text-right">328</td>
+<td class="text-right">102</td>
+</tr><tr>
+<td class="sorting_1">19</td>
+<td>Metz</td>
+<td>38</td>
+<td class="text-right">7</td>
+<td class="text-right">9</td>
+<td class="text-right">22</td>
+<td class="text-right">31</td>
+<td class="text-right">61</td>
+<td class="text-right">-30</td>
+<td class="text-right home">30</td>
+<td class="text-right">595</td>
+<td class="text-right">71</td>
+<td class="text-right">3</td>
+<td class="text-right">447</td>
+<td class="text-right">149</td>
+</tr><tr>
+<td class="sorting_1">20</td>
+<td>Lens</td>
+<td>38</td>
+<td class="text-right">7</td>
+<td class="text-right">8</td>
+<td class="text-right">23</td>
+<td class="text-right">32</td>
+<td class="text-right">61</td>
+<td class="text-right">-29</td>
+<td class="text-right home">29</td>
+<td class="text-right">552</td>
+<td class="text-right">70</td>
+<td class="text-right">5</td>
+<td class="text-right">407</td>
+<td class="text-right">126</td>
+</tr></table></body></html>

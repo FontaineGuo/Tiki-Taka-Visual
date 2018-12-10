@@ -1,0 +1,329 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>League Table</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr><th class="sorting_asc" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Position: activate to sort column descending" style="width: 111px;">Position</th><th class="sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Team: activate to sort column ascending" style="width: 152px;">Team</th><th class="sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Played: activate to sort column ascending" style="width: 92px;">Played</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="W: activate to sort column ascending" style="width: 33px;">W</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="D: activate to sort column ascending" style="width: 30px;">D</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="L: activate to sort column ascending" style="width: 24px;">L</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="F: activate to sort column ascending" style="width: 25px;">F</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="A: activate to sort column ascending" style="width: 27px;">A</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="GD: activate to sort column ascending" style="width: 44px;">GD</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Pts: activate to sort column ascending" style="width: 50px;">Pts</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Fl: activate to sort column ascending" style="width: 35px;">Fl</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Y: activate to sort column ascending" style="width: 25px;">Y</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="R: activate to sort column ascending" style="width: 30px;">R</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="Sh: activate to sort column ascending" style="width: 44px;">Sh</th><th class="text-right sorting" tabindex="0" aria-controls="sleague" rowspan="1" colspan="1" aria-label="ShT: activate to sort column ascending" style="width: 57px;">ShT</th></tr><tr><td colspan="15" rowspan="1">
+<b>Notes:</b><br>
+Key to column headings:-
+<strong>Fl</strong> = Number of Fouls
+<strong>Y </strong>= Number of Yellow cards
+<strong>R</strong> = Number of Reds
+<strong>Sh</strong> = Number of Shots
+<strong>ShT</strong> = Number of Shots on Target
+</td></tr><tr>
+<td class="sorting_1">1</td>
+<td>Man United</td>
+<td>38</td>
+<td class="text-right">28</td>
+<td class="text-right">5</td>
+<td class="text-right">5</td>
+<td class="text-right">86</td>
+<td class="text-right">43</td>
+<td class="text-right">43</td>
+<td class="text-right home">89</td>
+<td class="text-right">361</td>
+<td class="text-right">57</td>
+<td class="text-right">1</td>
+<td class="text-right">512</td>
+<td class="text-right">299</td>
+</tr><tr>
+<td class="sorting_1">2</td>
+<td>Man City</td>
+<td>38</td>
+<td class="text-right">23</td>
+<td class="text-right">9</td>
+<td class="text-right">6</td>
+<td class="text-right">66</td>
+<td class="text-right">34</td>
+<td class="text-right">32</td>
+<td class="text-right home">78</td>
+<td class="text-right">443</td>
+<td class="text-right">63</td>
+<td class="text-right">3</td>
+<td class="text-right">601</td>
+<td class="text-right">352</td>
+</tr><tr>
+<td class="sorting_1">3</td>
+<td>Chelsea</td>
+<td>38</td>
+<td class="text-right">22</td>
+<td class="text-right">9</td>
+<td class="text-right">7</td>
+<td class="text-right">75</td>
+<td class="text-right">39</td>
+<td class="text-right">36</td>
+<td class="text-right home">75</td>
+<td class="text-right">371</td>
+<td class="text-right">52</td>
+<td class="text-right">3</td>
+<td class="text-right">569</td>
+<td class="text-right">336</td>
+</tr><tr>
+<td class="sorting_1">4</td>
+<td>Arsenal</td>
+<td>38</td>
+<td class="text-right">21</td>
+<td class="text-right">10</td>
+<td class="text-right">7</td>
+<td class="text-right">72</td>
+<td class="text-right">37</td>
+<td class="text-right">35</td>
+<td class="text-right home">73</td>
+<td class="text-right">360</td>
+<td class="text-right">44</td>
+<td class="text-right">5</td>
+<td class="text-right">546</td>
+<td class="text-right">326</td>
+</tr><tr>
+<td class="sorting_1">5</td>
+<td>Tottenham</td>
+<td>38</td>
+<td class="text-right">21</td>
+<td class="text-right">9</td>
+<td class="text-right">8</td>
+<td class="text-right">66</td>
+<td class="text-right">46</td>
+<td class="text-right">20</td>
+<td class="text-right home">72</td>
+<td class="text-right">342</td>
+<td class="text-right">53</td>
+<td class="text-right">2</td>
+<td class="text-right">617</td>
+<td class="text-right">381</td>
+</tr><tr>
+<td class="sorting_1">6</td>
+<td>Everton</td>
+<td>38</td>
+<td class="text-right">16</td>
+<td class="text-right">15</td>
+<td class="text-right">7</td>
+<td class="text-right">55</td>
+<td class="text-right">40</td>
+<td class="text-right">15</td>
+<td class="text-right home">63</td>
+<td class="text-right">413</td>
+<td class="text-right">60</td>
+<td class="text-right">3</td>
+<td class="text-right">561</td>
+<td class="text-right">321</td>
+</tr><tr>
+<td class="sorting_1">7</td>
+<td>Liverpool</td>
+<td>38</td>
+<td class="text-right">16</td>
+<td class="text-right">13</td>
+<td class="text-right">9</td>
+<td class="text-right">71</td>
+<td class="text-right">43</td>
+<td class="text-right">28</td>
+<td class="text-right home">61</td>
+<td class="text-right">372</td>
+<td class="text-right">54</td>
+<td class="text-right">2</td>
+<td class="text-right">669</td>
+<td class="text-right">385</td>
+</tr><tr>
+<td class="sorting_1">8</td>
+<td>West Brom</td>
+<td>38</td>
+<td class="text-right">14</td>
+<td class="text-right">7</td>
+<td class="text-right">17</td>
+<td class="text-right">53</td>
+<td class="text-right">57</td>
+<td class="text-right">-4</td>
+<td class="text-right home">49</td>
+<td class="text-right">408</td>
+<td class="text-right">62</td>
+<td class="text-right">4</td>
+<td class="text-right">460</td>
+<td class="text-right">253</td>
+</tr><tr>
+<td class="sorting_1">9</td>
+<td>Swansea</td>
+<td>38</td>
+<td class="text-right">11</td>
+<td class="text-right">13</td>
+<td class="text-right">14</td>
+<td class="text-right">47</td>
+<td class="text-right">51</td>
+<td class="text-right">-4</td>
+<td class="text-right home">46</td>
+<td class="text-right">387</td>
+<td class="text-right">58</td>
+<td class="text-right">2</td>
+<td class="text-right">460</td>
+<td class="text-right">262</td>
+</tr><tr>
+<td class="sorting_1">10</td>
+<td>West Ham</td>
+<td>38</td>
+<td class="text-right">12</td>
+<td class="text-right">10</td>
+<td class="text-right">16</td>
+<td class="text-right">45</td>
+<td class="text-right">53</td>
+<td class="text-right">-8</td>
+<td class="text-right home">46</td>
+<td class="text-right">445</td>
+<td class="text-right">74</td>
+<td class="text-right">1</td>
+<td class="text-right">439</td>
+<td class="text-right">250</td>
+</tr><tr>
+<td class="sorting_1">11</td>
+<td>Norwich</td>
+<td>38</td>
+<td class="text-right">10</td>
+<td class="text-right">14</td>
+<td class="text-right">14</td>
+<td class="text-right">41</td>
+<td class="text-right">58</td>
+<td class="text-right">-17</td>
+<td class="text-right home">44</td>
+<td class="text-right">391</td>
+<td class="text-right">60</td>
+<td class="text-right">1</td>
+<td class="text-right">372</td>
+<td class="text-right">203</td>
+</tr><tr>
+<td class="sorting_1">12</td>
+<td>Fulham</td>
+<td>38</td>
+<td class="text-right">11</td>
+<td class="text-right">10</td>
+<td class="text-right">17</td>
+<td class="text-right">50</td>
+<td class="text-right">60</td>
+<td class="text-right">-10</td>
+<td class="text-right home">43</td>
+<td class="text-right">384</td>
+<td class="text-right">48</td>
+<td class="text-right">3</td>
+<td class="text-right">425</td>
+<td class="text-right">244</td>
+</tr><tr>
+<td class="sorting_1">13</td>
+<td>Stoke</td>
+<td>38</td>
+<td class="text-right">9</td>
+<td class="text-right">15</td>
+<td class="text-right">14</td>
+<td class="text-right">34</td>
+<td class="text-right">45</td>
+<td class="text-right">-11</td>
+<td class="text-right home">42</td>
+<td class="text-right">443</td>
+<td class="text-right">80</td>
+<td class="text-right">4</td>
+<td class="text-right">338</td>
+<td class="text-right">165</td>
+</tr><tr>
+<td class="sorting_1">14</td>
+<td>Southampton</td>
+<td>38</td>
+<td class="text-right">9</td>
+<td class="text-right">14</td>
+<td class="text-right">15</td>
+<td class="text-right">49</td>
+<td class="text-right">60</td>
+<td class="text-right">-11</td>
+<td class="text-right home">41</td>
+<td class="text-right">382</td>
+<td class="text-right">43</td>
+<td class="text-right">2</td>
+<td class="text-right">473</td>
+<td class="text-right">254</td>
+</tr><tr>
+<td class="sorting_1">15</td>
+<td>Aston Villa</td>
+<td>38</td>
+<td class="text-right">10</td>
+<td class="text-right">11</td>
+<td class="text-right">17</td>
+<td class="text-right">47</td>
+<td class="text-right">69</td>
+<td class="text-right">-22</td>
+<td class="text-right home">41</td>
+<td class="text-right">428</td>
+<td class="text-right">74</td>
+<td class="text-right">3</td>
+<td class="text-right">393</td>
+<td class="text-right">225</td>
+</tr><tr>
+<td class="sorting_1">16</td>
+<td>Newcastle</td>
+<td>38</td>
+<td class="text-right">11</td>
+<td class="text-right">8</td>
+<td class="text-right">19</td>
+<td class="text-right">45</td>
+<td class="text-right">68</td>
+<td class="text-right">-23</td>
+<td class="text-right home">41</td>
+<td class="text-right">437</td>
+<td class="text-right">72</td>
+<td class="text-right">4</td>
+<td class="text-right">471</td>
+<td class="text-right">252</td>
+</tr><tr>
+<td class="sorting_1">17</td>
+<td>Sunderland</td>
+<td>38</td>
+<td class="text-right">9</td>
+<td class="text-right">12</td>
+<td class="text-right">17</td>
+<td class="text-right">41</td>
+<td class="text-right">54</td>
+<td class="text-right">-13</td>
+<td class="text-right home">39</td>
+<td class="text-right">427</td>
+<td class="text-right">62</td>
+<td class="text-right">3</td>
+<td class="text-right">378</td>
+<td class="text-right">221</td>
+</tr><tr>
+<td class="sorting_1">18</td>
+<td>Wigan</td>
+<td>38</td>
+<td class="text-right">9</td>
+<td class="text-right">9</td>
+<td class="text-right">20</td>
+<td class="text-right">47</td>
+<td class="text-right">73</td>
+<td class="text-right">-26</td>
+<td class="text-right home">36</td>
+<td class="text-right">416</td>
+<td class="text-right">66</td>
+<td class="text-right">2</td>
+<td class="text-right">452</td>
+<td class="text-right">257</td>
+</tr><tr>
+<td class="sorting_1">19</td>
+<td>Reading</td>
+<td>38</td>
+<td class="text-right">6</td>
+<td class="text-right">10</td>
+<td class="text-right">22</td>
+<td class="text-right">43</td>
+<td class="text-right">73</td>
+<td class="text-right">-30</td>
+<td class="text-right home">28</td>
+<td class="text-right">359</td>
+<td class="text-right">45</td>
+<td class="text-right">1</td>
+<td class="text-right">351</td>
+<td class="text-right">179</td>
+</tr><tr>
+<td class="sorting_1">20</td>
+<td>QPR</td>
+<td>38</td>
+<td class="text-right">4</td>
+<td class="text-right">13</td>
+<td class="text-right">21</td>
+<td class="text-right">30</td>
+<td class="text-right">60</td>
+<td class="text-right">-30</td>
+<td class="text-right home">25</td>
+<td class="text-right">384</td>
+<td class="text-right">59</td>
+<td class="text-right">3</td>
+<td class="text-right">465</td>
+<td class="text-right">245</td>
+</tr></table></body></html>
