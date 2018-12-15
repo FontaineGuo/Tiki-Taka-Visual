@@ -1,0 +1,11 @@
+﻿{
+	"name":"JsonEditorEXE",
+	"main":"JsonCodeEditor.html",
+	"nodejs":true,
+	"window":{
+		"title":"Json编辑器",
+		"toolbar":false,
+		"width":1400,
+		"height":650
+	}
+}

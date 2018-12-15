@@ -1,0 +1,30 @@
+{
+  "BSSA": [
+    {
+      "Name": "Chris",
+      "Age": 35,
+      "Gender": "Male",
+      "Weapeons": 35
+    },
+    {
+      "Name": "Jill",
+      "Age": 30,
+      "Gender": "Female",
+      "Weapeons": 20
+    }
+  ],
+  "ENEMY": [
+    {
+      "Name": "Wisker",
+      "Age": 40,
+      "Gender": "Male",
+      "Weapeons": 15
+    },
+    {
+      "Name": "Jill",
+      "Age": 30,
+      "Gender": "Female",
+      "Weapeons": 20
+    }
+  ]
+}

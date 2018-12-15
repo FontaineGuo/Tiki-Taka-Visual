@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>JSONEditor | 本地json编辑器</title>
+
+  <!-- when using the mode "code", it's important to specify charset utf-8 -->
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+  <link href="./dist/jsoneditor.css" rel="stylesheet" type="text/css">
+  <script src="./dist/jsoneditor.js"></script>
+  <script src="./dist/filereader.js"></script>
+  <script src="./dist/FileSaver.min.js"></script>
+<p>
+  目前版本还未完成保存修改功能，请编辑完毕后将json代码手动复制到原文件中
+</p>
+<p>
+  载入 JSON 文件: <input type="file" id="loadDocument" value="Load"/>
+  保存 JSON 文件(暂时无法使用): <input type="button" id="saveDocument" value="Save" />
+</p>
+
+<p>
+  <button id="codeToTree">将代码转换为树状图</button>
+  <button id="treeToCode">将树状图转换为代码</button>
+</p>
+
+  <div id="codeEditor" style="width: 600px; height: 600px; float:left"></div>
+  <div id="treeEditor" style="width: 600px; height:600px; float: left"></div>
+</head>
+<body>
+
+
+<script>
+  
+
+  var container_1 = document.getElementById('codeEditor');
+
+  var options_1 = {
+    mode: 'code'
+  };
+
+  var container_2 = document.getElementById('treeEditor');
+
+  var options_2 = {
+    mode: 'tree'
+  };
+
+  var json_codeView = {
+    "array": [1, 2, 3],
+    "boolean": true,
+    "null": null,
+    "number": 123,
+    "object": {"a": "b", "c": "d"},
+    "string": "Hello World"
+  };
+
+    var data = {
+    "array": [1, 2, 3],
+    "boolean": true,
+    "null": null,
+    "number": 123,
+    "object": {"a": "b", "c": "d"},
+    "string": "Hello World"
+  };
+
+  
+
+  var editor1 = new JSONEditor(container_1, options_1, data);
+  var editor2 = new JSONEditor(container_2, options_2, data);
+
+  document.getElementById('codeToTree').onclick = function () {
+    var json = editor1.get();
+    editor2.set(json); 
+    
+  };
+
+  document.getElementById('treeToCode').onclick = function () {
+    var json = editor2.get();
+    editor1.set(json); 
+   
+  };
+
+  FileReaderJS.setupInput(document.getElementById('loadDocument'), {
+    readAsDefault: 'Text',
+    on: {
+      load: function (event, file) {
+        editor1.setText(event.target.result);
+        editor2.setText(event.target.result);
+      }
+    }
+  });
+
+  document.getElementById('saveDocument').onclick = function () {
+    // Save Dialog
+    var saveText;
+    if(editor1.get() == editor2.get())
+    {
+      saveText = editor1.get();
+    }else{
+      alert("请同步树形图与代码图中的代码");
+    }
+    
+
+    fname = window.prompt("Save as...");
+    // Check json extension in file name
+    if(fname.indexOf(".")==-1){
+      fname = fname + ".json";
+    }else{
+      if(fname.split('.').pop().toLowerCase() == "json"){
+        // Nothing to do
+      }else{
+        fname = fname.split('.')[0] + ".json";
+      }
+    } 
+ 
+
+    var blob = new Blob([saveText.getText()], {type: 'application/json;charset=utf-8'});
+    saveAs(blob, fname);
+  };  
+</script>
+
+</body>
+</html>
