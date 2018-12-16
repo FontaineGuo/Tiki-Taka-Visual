@@ -1,8 +1,8 @@
-table_root_path = {'Premier League':'\\DataSrc\\GBR-Premier League\\table\\',
-        'Serie A':'\\DataSrc\\ITA-Serie A\\table\\',
-        'Ligue 1':'\\DataSrc\\FRA- Ligue 1\\table\\',
-        'La Liga':'\\DataSrc\\ESP-La Liga\\table\\',
-        'Bundesliga':'\\DataSrc\\DEU-Bundesliga\\table\\'}
+table_root_path = {'Premier League':'\\DataSrc\\GBR-Premier League\\',
+        'Serie A':'\\DataSrc\\ITA-Serie A\\',
+        'Ligue 1':'\\DataSrc\\FRA- Ligue 1\\',
+        'La Liga':'\\DataSrc\\ESP-La Liga\\',
+        'Bundesliga':'\\DataSrc\\DEU-Bundesliga\\'}
 
 nameDict = {'Premier League':'premierleague',
         'Serie A':'seriea',

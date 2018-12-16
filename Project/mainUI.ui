@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTabWidget" name="tabWidget">
+   <widget class="QTabWidget" name="MainTabCtr">
     <property name="geometry">
      <rect>
       <x>-4</x>
@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <property name="iconSize">
      <size>
@@ -65,13 +65,19 @@
         <height>671</height>
        </rect>
       </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="lineWrapMode">
+       <enum>QTextEdit::NoWrap</enum>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
       <string>射手榜/助攻榜</string>
      </attribute>
-     <widget class="QComboBox" name="comboBox_3">
+     <widget class="QComboBox" name="ga_leagueBox">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -81,7 +87,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_4">
+     <widget class="QComboBox" name="ga_yearBox">
       <property name="geometry">
        <rect>
         <x>270</x>
@@ -91,7 +97,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_5">
+     <widget class="QComboBox" name="ga_optionBox">
       <property name="geometry">
        <rect>
         <x>550</x>
@@ -101,13 +107,13 @@
        </rect>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_2">
+     <widget class="QTextBrowser" name="ga_browser">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>80</y>
-        <width>1031</width>
-        <height>641</height>
+        <width>1091</width>
+        <height>681</height>
        </rect>
       </property>
      </widget>
@@ -116,6 +122,21 @@
      <attribute name="title">
       <string>球队统计</string>
      </attribute>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>180</y>
+        <width>821</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="charts_test">
+       <item>
+        <widget class="QWidget" name="charts_show" native="true"/>
+       </item>
+      </layout>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
