@@ -21,16 +21,27 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
 
-        self.MainTabCtr.currentChanged.connect(self.main_tab_init)
 
         self.MainTabCtr.setCurrentIndex(0)
         self.init_specical_widget()
         self.init_pts_main()
-
+        self.MainTabCtr.currentChanged.connect(self.main_tab_init)
+        
 
 # <----------------------------init specific widget------------------------------------------------------->
     def init_specical_widget(self):
         self.charts_show = QWebEngineView()
+        for item in league_name_lst:
+            self.pts_leagueBox.addItem(item)
+        for item in year_lst:
+            self.pts_yearBox.addItem(item)
+        for item in league_name_lst:
+            self.ga_leagueBox.addItem(item)
+        for item in year_lst:
+            self.ga_yearBox.addItem(item)
+        for item in option_lst:
+            self.ga_optionBox.addItem(item)
+
 # <----------------------------init specific widget------------------------------------------------------->
 
 # <--------------------------define the Qtabwidget function--------------------------------------------->
@@ -49,10 +60,6 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 
 # <----------------------define the function of pts_ui------------------------------------------>
     def init_pts_main(self):
-        for item in league_name_lst:
-            self.pts_leagueBox.addItem(item)
-        for item in year_lst:
-            self.pts_yearBox.addItem(item)
         self.pts_browser.setText(getTable.get_pts_table(self.pts_leagueBox.currentText(), self.pts_yearBox.currentText()))
         self.pts_leagueBox.activated.connect(self.pts_leagueBox_activate)
         self.pts_yearBox.activated.connect(self.pts_yearBox_activate)
@@ -70,12 +77,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 
 # <----------------------define the function of goalgetter_assists_ui------------------------------------------>
     def init_goal_assists_main(self):
-        for item in league_name_lst:
-            self.ga_leagueBox.addItem(item)
-        for item in year_lst:
-            self.ga_yearBox.addItem(item)
-        for item in option_lst:
-            self.ga_optionBox.addItem(item)
+
         self.ga_browser.setText(
             getTable.get_goalgetter_assists_table(self.ga_leagueBox.currentText(),
                                                   self.ga_yearBox.currentText(),
