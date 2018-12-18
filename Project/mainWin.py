@@ -7,7 +7,7 @@ from PyQt5.QtCore import *
 
 from mainUI import Ui_MainWindow
 from data_process import getTable,config
-from charts import chartsTest
+from charts import chartsTest, singleGameGoalPie
 
 
 league_name_lst = ["Premier League", "Serie A", "Ligue 1", "La Liga", "Bundesliga"]
@@ -52,7 +52,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         elif tabindex == 1:
             self.init_goal_assists_main()
         elif tabindex == 2:
-            self.init_team_statics_main()
+            self.init_single_game_main()
         elif tabindex == 3:
             print(tabindex)
 
@@ -107,9 +107,8 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 # <----------------------define the function of goalgetter_assists_ui------------------------------------------>
 # <----------------------define the function of team_statics_ui------------------------------------------>
     def init_team_statics_main(self):
+        print()
 
-        self.charts_show.load(QUrl.fromLocalFile(chartsTest.bar_test()))
-        self.charts_test.addWidget(self.charts_show)
         # self.charts_show.show()
 
 
@@ -121,7 +120,9 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 
 # <----------------------define the function of team_statics_ui------------------------------------------>
     def init_single_game_main(self):
-        print()
+        self.charts_show.load(QUrl.fromLocalFile(singleGameGoalPie.single_game_goal_pie()))
+        self.charts_test.addWidget(self.charts_show)
+
 
 
 
