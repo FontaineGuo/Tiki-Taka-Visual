@@ -26,7 +26,9 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         self.MainTabCtr.setCurrentIndex(0)
         self.init_specical_widget()
         self.init_pts_main()
-        self.MainTabCtr.currentChanged.connect(self.main_tab_init)
+        self.init_single_game_main()
+        self.init_goal_assists_main()
+        # self.MainTabCtr.currentChanged.connect(self.main_tab_init)
         
 
 # <----------------------------init specific widget------------------------------------------------------->
@@ -50,6 +52,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         for item in getJsonConfig.select_round_gameinfo('Premier League', '2010-2011', 1):
             data = item['home'] + ' vs ' + item['away']
             self.sg_gameBox.addItem(data)
+
 
 # <----------------------------init specific widget------------------------------------------------------->
 
@@ -129,20 +132,48 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 
 # <----------------------define the function of team_statics_ui------------------------------------------>
     def init_single_game_main(self):
-        self.sg_leagueBox.currentIndexChanged.connect()
+        self.sg_leagueBox.currentIndexChanged.connect(self.change_option)
+        self.sg_roundBox.currentIndexChanged.connect(self.change_round_year)
+        self.sg_yearBox.currentIndexChanged.connect(self.change_round_year)
         self.sg_checkBtn.setToolTip('查询比赛数据')
-        # self.clicked.connect(self.check_single_game)
+
+        self.sg_checkBtn.clicked.connect(self.check_single_game)
         # self.charts_show.load(QUrl.fromLocalFile(singleGameGoalPie.single_game_goal_pie()))
         # self.charts_test.addWidget(self.charts_show)
 
     def check_single_game(self):
-        print()
+        index = int(self.sg_gameBox.currentIndex())
+        id = getJsonConfig.select_round_gameinfo(self.sg_leagueBox.currentText(),
+                                                 self.sg_yearBox.currentText(),
+                                                int(self.sg_roundBox.currentText()))[index]['id']
+        print(id)
 
-    def change_round_option(self):
-        if self.sg_leagueBox.currentIndex() == 4:
+    def change_option(self,i):
+        self.sg_gameBox.clear()
+        if i == 4:
             self.sg_roundBox.clear()
-        for item in range(1, 39):
-            self.sg_roundBox.addItem(str(item))
+            for item in getJsonConfig.select_round_gameinfo('Bundesliga',
+                                                            self.sg_yearBox.currentText(),
+                                                            1):
+                data = item['home'] + ' vs ' + item['away']
+                self.sg_gameBox.addItem(data)
+            for item in range(1, 35):
+                self.sg_roundBox.addItem(str(item))
+        else:
+            for item in getJsonConfig.select_round_gameinfo(self.sg_leagueBox.currentText(),
+                                                            self.sg_yearBox.currentText(),
+                                                            int(self.sg_roundBox.currentText())):
+                data = item['home'] + ' vs ' + item['away']
+                self.sg_gameBox.addItem(data)
+
+    def change_round_year(self,i):
+        self.sg_gameBox.clear()
+        for item in getJsonConfig.select_round_gameinfo(self.sg_leagueBox.currentText(),
+                                                        self.sg_yearBox.currentText(),
+                                                        int(self.sg_roundBox.currentText())):
+            data = item['home'] + ' vs ' + item['away']
+            self.sg_gameBox.addItem(data)
+
 
 # <----------------------define the function of team_statics_ui------------------------------------------>
 
