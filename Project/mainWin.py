@@ -6,13 +6,14 @@ from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtCore import *
 
 from mainUI import Ui_MainWindow
-from data_process import getTable,config
+from data_process import getTable,config, getJsonConfig
 from charts import chartsTest, singleGameGoalPie
 
 
 league_name_lst = ["Premier League", "Serie A", "Ligue 1", "La Liga", "Bundesliga"]
 year_lst = ["2010-2011", "2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018"]
 option_lst = ["goalgetter", "assists"]
+
 
 class TikiTaka(QMainWindow, Ui_MainWindow):
 
@@ -33,14 +34,22 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         self.charts_show = QWebEngineView()
         for item in league_name_lst:
             self.pts_leagueBox.addItem(item)
+            self.ga_leagueBox.addItem(item)
+            self.sg_leagueBox.addItem(item)
         for item in year_lst:
             self.pts_yearBox.addItem(item)
-        for item in league_name_lst:
-            self.ga_leagueBox.addItem(item)
-        for item in year_lst:
             self.ga_yearBox.addItem(item)
+            self.sg_yearBox.addItem(item)
+
         for item in option_lst:
             self.ga_optionBox.addItem(item)
+
+        for item in range(1,39):
+            self.sg_roundBox.addItem(str(item))
+
+        for item in getJsonConfig.select_round_gameinfo('Premier League', '2010-2011', 1):
+            data = item['home'] + ' vs ' + item['away']
+            self.sg_gameBox.addItem(data)
 
 # <----------------------------init specific widget------------------------------------------------------->
 
@@ -120,10 +129,22 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 
 # <----------------------define the function of team_statics_ui------------------------------------------>
     def init_single_game_main(self):
-        self.charts_show.load(QUrl.fromLocalFile(singleGameGoalPie.single_game_goal_pie()))
-        self.charts_test.addWidget(self.charts_show)
+        self.sg_leagueBox.currentIndexChanged.connect()
+        self.sg_checkBtn.setToolTip('查询比赛数据')
+        # self.clicked.connect(self.check_single_game)
+        # self.charts_show.load(QUrl.fromLocalFile(singleGameGoalPie.single_game_goal_pie()))
+        # self.charts_test.addWidget(self.charts_show)
 
+    def check_single_game(self):
+        print()
 
+    def change_round_option(self):
+        if self.sg_leagueBox.currentIndex() == 4:
+            self.sg_roundBox.clear()
+        for item in range(1, 39):
+            self.sg_roundBox.addItem(str(item))
+
+# <----------------------define the function of team_statics_ui------------------------------------------>
 
 
 if __name__ == '__main__':

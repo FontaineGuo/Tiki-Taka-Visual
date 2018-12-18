@@ -125,9 +125,9 @@
      <widget class="QWidget" name="verticalLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>140</x>
+        <x>10</x>
         <y>350</y>
-        <width>701</width>
+        <width>1071</width>
         <height>581</height>
        </rect>
       </property>
@@ -137,7 +137,7 @@
        </item>
       </layout>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="sg_leagueBox">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -147,7 +147,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_2">
+     <widget class="QComboBox" name="sg_yearBox">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -157,7 +157,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_3">
+     <widget class="QComboBox" name="sg_roundBox">
       <property name="geometry">
        <rect>
         <x>500</x>
@@ -253,6 +253,29 @@
         </widget>
        </item>
       </layout>
+     </widget>
+     <widget class="QComboBox" name="sg_gameBox">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>40</y>
+        <width>221</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sg_checkBtn">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>90</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_4">
