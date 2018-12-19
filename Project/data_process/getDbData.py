@@ -26,13 +26,20 @@ def get_player_db_data(name):
     conn = sqlite3.connect(current_path + '\\DataSrc\\player_data.db')
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM player where player.Name='"+ name + "'")
-    for item in cursor:
-        print(item)
+    data = cursor.fetchall()
+    player = []
+    if len(data) == 0:
+        return []
+    else:
+        for item in data:
+            for i in item:
+                player.append(i)
 
     # cursor.execute("SELECT Name From player")
     # for item in cursor:
     #     print(item)
     cursor.close()
+    return player
 
 def get_team_season_data(league, team):
     league_name = config.nameDict[league]
@@ -55,7 +62,9 @@ def get_team_season_data(league, team):
 # print(data[3])
 
 #  test for get player db
-# get_player_db_data('L. Messi')
+# data = get_player_db_data('L. Messi')
+# print(data)
+# print(len(data))
 
 # test for get team season data
 # print(get_team_season_data('Bundesliga', 'Dortmund'))
