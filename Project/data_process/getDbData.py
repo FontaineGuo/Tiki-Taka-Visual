@@ -21,6 +21,8 @@ def get_single_game_db_data(league, id):
     return data
 
 
-# matches = pd.read_sql_query("SELECT * from bundesliga_game limit 0,1", conn)
-data = get_single_game_db_data('Serie A','2')
-print(data[3])
+
+
+# test for get_single_game_db_data
+# data = get_single_game_db_data('Serie A','2')
+# print(data[3])

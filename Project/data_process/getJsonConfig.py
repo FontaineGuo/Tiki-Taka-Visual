@@ -8,7 +8,7 @@ current_path = os.path.dirname(__file__)
 
 
 def select_round_gameinfo(league, season, round):
-    json_data = open(current_path + '\\DataSrc\\game-simple-info\\' + config.nameDict[league] + '_game.json').read()
+    json_data = open(current_path + '\\DataSrc\\config-json\\' + config.nameDict[league] + '_game.json').read()
     data = json.loads(json_data)
     templist = []
     for game in data:
