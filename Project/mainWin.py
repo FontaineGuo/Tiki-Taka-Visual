@@ -6,8 +6,8 @@ from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtCore import *
 
 from mainUI import Ui_MainWindow
-from data_process import getTable,config, getJsonConfig
-from charts import chartsTest, singleGameGoalPie
+from data_process import getTable,config, getJsonConfig,getDbData
+from charts import singleGame
 
 
 league_name_lst = ["Premier League", "Serie A", "Ligue 1", "La Liga", "Bundesliga"]
@@ -33,11 +33,12 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 
 # <----------------------------init specific widget------------------------------------------------------->
     def init_specical_widget(self):
-        self.charts_show = QWebEngineView()
+
         for item in league_name_lst:
             self.pts_leagueBox.addItem(item)
             self.ga_leagueBox.addItem(item)
             self.sg_leagueBox.addItem(item)
+            self.team_leagueBox.addItem(item)
         for item in year_lst:
             self.pts_yearBox.addItem(item)
             self.ga_yearBox.addItem(item)
@@ -53,6 +54,29 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
             data = item['home'] + ' vs ' + item['away']
             self.sg_gameBox.addItem(data)
 
+        for item in getJsonConfig.get_team_list('Premier League'):
+            self.team_teamBox.addItem(item)
+
+        # pts ui singal
+        self.pts_leagueBox.activated.connect(self.pts_leagueBox_activate)
+        self.pts_yearBox.activated.connect(self.pts_yearBox_activate)
+
+        # ga ui singal
+        self.ga_leagueBox.activated.connect(self.ga_leagueBox_activate)
+        self.ga_yearBox.activated.connect(self.ga_yearBox_activate)
+        self.ga_optionBox.activated.connect(self.ga_optionBox_activate)
+
+        # single game singal
+        self.sg_leagueBox.currentIndexChanged.connect(self.change_option)
+        self.sg_roundBox.currentIndexChanged.connect(self.change_round_year)
+        self.sg_yearBox.currentIndexChanged.connect(self.change_round_year)
+        self.sg_checkBtn.clicked.connect(self.check_single_game)
+
+        #team static singal
+        self.team_leagueBox.currentIndexChanged.connect(self.team_leagueBox_activate)
+
+        # init qwebviewengine
+        self.charts_show = QWebEngineView()
 
 # <----------------------------init specific widget------------------------------------------------------->
 
@@ -73,8 +97,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 # <----------------------define the function of pts_ui------------------------------------------>
     def init_pts_main(self):
         self.pts_browser.setText(getTable.get_pts_table(self.pts_leagueBox.currentText(), self.pts_yearBox.currentText()))
-        self.pts_leagueBox.activated.connect(self.pts_leagueBox_activate)
-        self.pts_yearBox.activated.connect(self.pts_yearBox_activate)
+
 
     def pts_leagueBox_activate(self):
         # print(self.pts_leagueBox.currentText())
@@ -95,9 +118,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
                                                   self.ga_yearBox.currentText(),
                                                   self.ga_optionBox.currentText()))
 
-        self.ga_leagueBox.activated.connect(self.ga_leagueBox_activate)
-        self.ga_yearBox.activated.connect(self.ga_yearBox_activate)
-        self.ga_optionBox.activated.connect(self.ga_optionBox_activate)
+
 
     def ga_leagueBox_activate(self):
         self.ga_browser.setText(
@@ -130,14 +151,11 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         # self.setCentralWidget(self.charts_test)
         # self.charts_test.show()
 
-# <----------------------define the function of team_statics_ui------------------------------------------>
+# <----------------------define the function of single game_statics_ui------------------------------------------>
     def init_single_game_main(self):
-        self.sg_leagueBox.currentIndexChanged.connect(self.change_option)
-        self.sg_roundBox.currentIndexChanged.connect(self.change_round_year)
-        self.sg_yearBox.currentIndexChanged.connect(self.change_round_year)
+
         self.sg_checkBtn.setToolTip('查询比赛数据')
 
-        self.sg_checkBtn.clicked.connect(self.check_single_game)
         # self.charts_show.load(QUrl.fromLocalFile(singleGameGoalPie.single_game_goal_pie()))
         # self.charts_test.addWidget(self.charts_show)
 
@@ -146,7 +164,8 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         id = getJsonConfig.select_round_gameinfo(self.sg_leagueBox.currentText(),
                                                  self.sg_yearBox.currentText(),
                                                 int(self.sg_roundBox.currentText()))[index]['id']
-        print(id)
+        self.charts_show.load(QUrl.fromLocalFile(singleGame.single_game_goal_pie(getDbData.get_single_game_db_data(self.sg_leagueBox.currentText(),str(id)))))
+        self.sg_charts.addWidget(self.charts_show)
 
     def change_option(self,i):
         self.sg_gameBox.clear()
@@ -175,9 +194,20 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
             self.sg_gameBox.addItem(data)
 
 
-# <----------------------define the function of team_statics_ui------------------------------------------>
+# <----------------------define the function of single_game_statics_ui------------------------------------------>
 
+# <-----------------------define the funcation of team season data----------------------------------------------->
+    def init_team_season_main(self):
+        print()
 
+    def team_leagueBox_activate(self):
+        self.team_teamBox.clear()
+        for item in getJsonConfig.get_team_list(self.team_leagueBox.currentText()):
+            self.team_teamBox.addItem(item)
+
+    def team_check_team(self):
+        print()
+# <-----------------------define the funcation of team season data----------------------------------------------->
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     w = TikiTaka()

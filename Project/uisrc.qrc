@@ -1,0 +1,49 @@
+<RCC>
+  <qresource prefix="img">
+    <file>Arsenal.png</file>
+    <file>Aston Villa.png</file>
+    <file>Birmingham City.png</file>
+    <file>Blackburn Rovers.png</file>
+    <file>Bolton Wanderers.png</file>
+    <file>Burnley FC.png</file>
+    <file>Cardiff City.png</file>
+    <file>Celtic.png</file>
+    <file>Chelsea.png</file>
+    <file>Coventry City.png</file>
+    <file>Derby County.png</file>
+    <file>England.png</file>
+    <file>Everton.png</file>
+    <file>Fulham FC.png</file>
+    <file>Glascow Rangers.png</file>
+    <file>Hearts FC.png</file>
+    <file>Ipswich Town.png</file>
+    <file>Ireland.png</file>
+    <file>Leeds United.png</file>
+    <file>Leicester City.png</file>
+    <file>Liverpool FC.png</file>
+    <file>Manchester City.png</file>
+    <file>Manchester United.png</file>
+    <file>Middlesbrough.png</file>
+    <file>Millwall FC.png</file>
+    <file>Newcastle United.png</file>
+    <file>Northern Ireland.png</file>
+    <file>Norwich City.png</file>
+    <file>Nottingham Forest.png</file>
+    <file>Portsmouth FC.png</file>
+    <file>Queens Park Rangers.png</file>
+    <file>Reading.png</file>
+    <file>Scotland.png</file>
+    <file>Sheffield Wendesday.png</file>
+    <file>Southampton FC.png</file>
+    <file>Stoke City.png</file>
+    <file>Sunderland.png</file>
+    <file>Swansea City.png</file>
+    <file>Tottenham Hotspur.png</file>
+    <file>Watford FC.png</file>
+    <file>West Bromwich Albion.png</file>
+    <file>West Ham United.png</file>
+    <file>Wigan Athletic.png</file>
+    <file>Wolverhampton Wanderers.png</file>
+    <file>Wrexham.png</file>
+  </qresource>
+</RCC>

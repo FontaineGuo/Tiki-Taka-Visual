@@ -131,7 +131,7 @@
         <height>581</height>
        </rect>
       </property>
-      <layout class="QVBoxLayout" name="charts_test">
+      <layout class="QVBoxLayout" name="sg_charts">
        <item>
         <widget class="QWidget" name="charts_show" native="true"/>
        </item>
@@ -170,10 +170,10 @@
      <widget class="QWidget" name="horizontalLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>190</x>
-        <y>90</y>
-        <width>621</width>
-        <height>151</height>
+        <x>140</x>
+        <y>80</y>
+        <width>711</width>
+        <height>171</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
@@ -183,7 +183,13 @@
           <enum>QFrame::Panel</enum>
          </property>
          <property name="text">
-          <string>TextLabel</string>
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../DataSets/FootballIcon/British-Football-Clubs-PNG/PNG/Liverpool FC.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -206,7 +212,13 @@
           <enum>QFrame::Panel</enum>
          </property>
          <property name="text">
-          <string>TextLabel</string>
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../DataSets/FootballIcon/British-Football-Clubs-PNG/PNG/Manchester City.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -282,17 +294,17 @@
      <attribute name="title">
       <string>球队数据</string>
      </attribute>
-     <widget class="QComboBox" name="comboBox_4">
+     <widget class="QComboBox" name="team_leagueBox">
       <property name="geometry">
        <rect>
-        <x>40</x>
+        <x>20</x>
         <y>20</y>
         <width>191</width>
         <height>22</height>
        </rect>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_5">
+     <widget class="QComboBox" name="team_teamBox">
       <property name="geometry">
        <rect>
         <x>250</x>
@@ -305,78 +317,29 @@
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>90</y>
-        <width>201</width>
-        <height>191</height>
+        <x>20</x>
+        <y>60</y>
+        <width>261</width>
+        <height>261</height>
        </rect>
       </property>
       <property name="frameShape">
        <enum>QFrame::Panel</enum>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
       </property>
-     </widget>
-     <widget class="QWidget" name="verticalLayoutWidget_5">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>90</y>
-        <width>121</width>
-        <height>191</height>
-       </rect>
+      <property name="pixmap">
+       <pixmap>../DataSets/FootballIcon/British-Football-Clubs-PNG/PNG/Liverpool FC.png</pixmap>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_3">
-       <item>
-        <widget class="QLabel" name="label_8">
-         <property name="text">
-          <string>name</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_9">
-         <property name="text">
-          <string>coutry</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="verticalLayoutWidget_6">
-      <property name="geometry">
-       <rect>
-        <x>440</x>
-        <y>90</y>
-        <width>121</width>
-        <height>191</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_4">
-       <item>
-        <widget class="QLabel" name="label_10">
-         <property name="text">
-          <string>liverpool</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_11">
-         <property name="text">
-          <string>England</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
      </widget>
      <widget class="QWidget" name="verticalLayoutWidget_7">
       <property name="geometry">
        <rect>
-        <x>40</x>
+        <x>20</x>
         <y>330</y>
-        <width>521</width>
-        <height>281</height>
+        <width>1051</width>
+        <height>601</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -385,29 +348,57 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="verticalLayoutWidget_8">
+     <widget class="QWidget" name="gridLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>630</y>
-        <width>521</width>
-        <height>281</height>
+        <x>330</x>
+        <y>60</y>
+        <width>281</width>
+        <height>261</height>
        </rect>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_6">
-       <item>
-        <widget class="QWidget" name="widget_3" native="true"/>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>country</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>england</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>Liverpool</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser">
+     <widget class="QPushButton" name="team_checkBtn">
       <property name="geometry">
        <rect>
-        <x>600</x>
-        <y>330</y>
-        <width>501</width>
-        <height>581</height>
+        <x>480</x>
+        <y>20</y>
+        <width>71</width>
+        <height>31</height>
        </rect>
+      </property>
+      <property name="text">
+       <string>查询</string>
       </property>
      </widget>
     </widget>
