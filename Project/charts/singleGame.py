@@ -9,13 +9,14 @@ HEIGHT = 300
 
 def single_game_goal_pie(game_data):
 
+
     style = Style(width=WIDTH, height=HEIGHT )
     page = Page()
-    chart = Pie('进球射门统计(主队/客队)', "数据来源于网络",
+    chart = Pie('射门统计(主队/客队)',
                 title_pos='left', **style.init_style)
-    chart.add(game_data[2], ["射门", "门框范围"], [game_data[10], game_data[12]], center=[20, 50], radius=[18, 24],rosetype='area',
+    chart.add(game_data[2], ["门框范围外", "门框范围"], [game_data[10]-game_data[12], game_data[12]], center=[20, 50], radius=[40, 75],
               label_pos='left', is_legend_show= False,is_label_show=True, label_text_color=None, is_toolbox_show=False)
-    chart.add(game_data[3], ["射门", "门框范围"], [game_data[11], game_data[13]], center=[70, 50], radius=[18, 24], rosetype='area',
+    chart.add(game_data[3], ["门框范围外", "门框范围"], [game_data[11]-game_data[13], game_data[13]], center=[70, 50], radius=[40, 75],
               label_pos='left', is_legend_show=False, is_label_show=True, label_text_color=None, is_toolbox_show=False)
 
     page.add(chart)
@@ -41,4 +42,6 @@ def single_game_goal_pie(game_data):
 #
 # data = getDbData.get_single_game_db_data('Serie A','2')
 # print(data)
-# single_game_goal_pie(data)
+# data = getDbData.get_single_game_db_data('Premier League','2')
+# print(data)
+# # single_game_goal_pie(data)
