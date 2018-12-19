@@ -1,13 +1,15 @@
 import sys
 import mainUI
 import json
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
 from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtCore import *
+from PyQt5.QtGui import  QPixmap
 
 from mainUI import Ui_MainWindow
 from data_process import getTable,config, getJsonConfig,getDbData
 from charts import singleGame
+import requests
 
 
 league_name_lst = ["Premier League", "Serie A", "Ligue 1", "La Liga", "Bundesliga"]
@@ -75,8 +77,12 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         #team static singal
         self.team_leagueBox.currentIndexChanged.connect(self.team_leagueBox_activate)
 
+        # player data singal
+        self.player_CheckBtn.clicked.connect(self.player_check)
+
         # init qwebviewengine
         self.charts_show = QWebEngineView()
+
 
 # <----------------------------init specific widget------------------------------------------------------->
 
@@ -164,7 +170,12 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         id = getJsonConfig.select_round_gameinfo(self.sg_leagueBox.currentText(),
                                                  self.sg_yearBox.currentText(),
                                                 int(self.sg_roundBox.currentText()))[index]['id']
-        self.charts_show.load(QUrl.fromLocalFile(singleGame.single_game_goal_pie(getDbData.get_single_game_db_data(self.sg_leagueBox.currentText(),str(id)))))
+        data = getDbData.get_single_game_db_data(self.sg_leagueBox.currentText(),str(id))
+        self.sg_homeGoal_label.setText(str(data[4]))
+        self.sg_awayGaol_label.setText(str(data[5]))
+        self.sg_homeName_label.setText(data[2])
+        self.sg_awayName_label.setText(data[3])
+        self.charts_show.load(QUrl.fromLocalFile(singleGame.single_game_goal_pie(data)))
         self.sg_charts.addWidget(self.charts_show)
 
     def change_option(self,i):
@@ -208,6 +219,34 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
     def team_check_team(self):
         print()
 # <-----------------------define the funcation of team season data----------------------------------------------->
+# <-----------------------define the funcation of player data----------------------------------------------->
+    def player_check(self):
+        player = getDbData.get_player_db_data(self.playerName_Input.text())
+        if len(player) == 0:
+            QMessageBox.information(self, "提示", "请输入正确的球员姓名")
+        else:
+            self.playerName_lb.setText(player[2])
+            self.playerAge_lb.setText(str(player[3]))
+            self.playerClub_lb.setText(player[9])
+            self.playerCountry_lb.setText(player[5])
+            req = requests.get(player[4])
+            req2 = requests.get(player[6])
+            req3 = requests.get(player[10])
+
+            playerPhoto = QPixmap()
+            countryPhoto = QPixmap()
+            clubPhoto = QPixmap()
+
+            playerPhoto.loadFromData(req.content)
+            countryPhoto.loadFromData(req2.content)
+            clubPhoto.loadFromData(req3.content)
+
+            self.playerPhoto_lb.setPixmap(playerPhoto)
+            self.playerCountryPhoto_lb.setPixmap(countryPhoto)
+            self.playerClubPhoto_lb.setPixmap(clubPhoto)
+            # self.playerHeight_lb.setText(player[])
+            # self.playerWeight_lb.setText()
+# <-----------------------define the funcation of player data----------------------------------------------->
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     w = TikiTaka()
