@@ -8,7 +8,7 @@ from PyQt5.QtGui import  QPixmap
 
 from mainUI import Ui_MainWindow
 from data_process import getTable,config, getJsonConfig,getDbData
-from charts import singleGame, playerStatisticsOne
+from charts import singleGame, playerStatisticsOne,teamStatistics
 import requests
 
 
@@ -84,6 +84,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         self.charts_show = QWebEngineView()
         self.player_ChartShow_one = QWebEngineView()
         self.player_ChartShow_two = QWebEngineView()
+        self.team_ChartShow = QWebEngineView()
 
 
 # <----------------------------init specific widget------------------------------------------------------->
@@ -232,6 +233,10 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
     def team_check_team(self):
         self.teamCountry_lb.setText(config.countryDict[self.team_leagueBox.currentText()])
         self.teamName_lb.setText(self.team_teamBox.currentText())
+        self.team_ChartShow.load(QUrl.fromLocalFile(teamStatistics.team_data_visual(self.team_leagueBox.currentText(),
+                                                                                    self.team_teamBox.currentText())))
+
+        self.team_Chart.addWidget(self.team_ChartShow)
 # <-----------------------define the funcation of team season data----------------------------------------------->
 # <-----------------------define the funcation of player data----------------------------------------------->
     def player_check(self):

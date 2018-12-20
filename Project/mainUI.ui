@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Tiki-Taka DataVisual</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTabWidget" name="MainTabCtr">
@@ -22,6 +22,12 @@
       <width>1131</width>
       <height>971</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="font">
      <font>
@@ -376,9 +382,16 @@
         <height>731</height>
        </rect>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_5">
+      <layout class="QVBoxLayout" name="team_Chart">
        <item>
-        <widget class="QWidget" name="widget_2" native="true"/>
+        <widget class="QWidget" name="team_ChartShow" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>

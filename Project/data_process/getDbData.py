@@ -50,13 +50,37 @@ def get_team_season_data(league, team):
     cursor = conn.cursor()
     season_data = []
     for season in seasons:
-        single_season = cursor.execute("SELECT * from '" + league + "_" + season + "_table' where Team='" + team + "'" )
+        single_season = cursor.execute("SELECT * from '" + league_name + "_" + season + "_table' where Team='" + team + "'" )
         temp = []
         for item in single_season:
-            temp.append(item)
+            for i in item:
+                temp.append(i)
         season_data.append(temp)
     cursor.close()
     return season_data
+
+
+def get_team_games_data(league, team):
+    conn = sqlite3.connect(current_path + '\\DataSrc\\game.db')
+    cursor = conn.cursor()
+    league_name = config.nameDict[league]
+    games = []
+    cursor.execute("SELECT * from " + league_name + "_game where " + league_name + "_game.HomeTeam=" + "'"+ team +
+                   "' or " +
+                   league_name + "_game.AwayTeam=" + "'" + team + "'")
+    for data in cursor:
+        tempList = []
+        for item in data:
+            tempList.append(item)
+        games.append(tempList)
+
+    cursor.close()
+    return games
+
+
+
+
+
 # test for get_single_game_db_data
 # data = get_single_game_db_data('Serie A','2')
 # print(data[3])
@@ -72,3 +96,6 @@ def get_team_season_data(league, team):
 
 # test for get team season data
 # print(get_team_season_data('Bundesliga', 'Dortmund'))
+
+# test for get team games data
+# get_team_games_data('Bundesliga', 'Dortmund')

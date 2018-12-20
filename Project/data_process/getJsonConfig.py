@@ -31,6 +31,6 @@ def get_team_list(league):
         teamlist.append(key)
     return teamlist
 # test get_team_season_info
-get_team_season_info('Bundesliga', 'Dortmund')
+# print(get_team_season_info('Bundesliga', 'Dortmund'))
 
 # get_team_list('Bundesliga')
