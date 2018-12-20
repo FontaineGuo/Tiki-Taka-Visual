@@ -63,7 +63,11 @@ def get_team_season_data(league, team):
 
 #  test for get player db
 # data = get_player_db_data('L. Messi')
-# print(data)
+# index = 0
+# for d in data:
+#     print(str(index) + " : " + str(d))
+#     index = index + 1
+
 # print(len(data))
 
 # test for get team season data
