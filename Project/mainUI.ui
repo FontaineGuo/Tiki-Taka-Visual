@@ -30,7 +30,7 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>4</number>
+     <number>3</number>
     </property>
     <property name="iconSize">
      <size>
@@ -76,6 +76,9 @@
         <pointsize>9</pointsize>
        </font>
       </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
@@ -116,15 +119,18 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>80</y>
-        <width>1131</width>
-        <height>971</height>
+        <y>70</y>
+        <width>531</width>
+        <height>701</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <pointsize>9</pointsize>
        </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
       </property>
      </widget>
     </widget>
@@ -361,32 +367,13 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>60</y>
-        <width>261</width>
-        <height>261</height>
-       </rect>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Panel</enum>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>C:/Users/Fontaine/.designer/DataSets/FootballIcon/British-Football-Clubs-PNG/PNG/Liverpool FC.png</pixmap>
-      </property>
-     </widget>
      <widget class="QWidget" name="verticalLayoutWidget_7">
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>330</y>
+        <y>200</y>
         <width>1051</width>
-        <height>601</height>
+        <height>731</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -398,38 +385,24 @@
      <widget class="QWidget" name="gridLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>330</x>
-        <y>60</y>
-        <width>281</width>
-        <height>261</height>
+        <x>20</x>
+        <y>50</y>
+        <width>131</width>
+        <height>131</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout">
        <item row="1" column="0">
         <widget class="QLabel" name="label_9">
          <property name="text">
-          <string>country</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QLabel" name="label_10">
-         <property name="text">
-          <string>england</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QLabel" name="label_11">
-         <property name="text">
-          <string>Liverpool</string>
+          <string>Country:</string>
          </property>
         </widget>
        </item>
        <item row="0" column="0">
         <widget class="QLabel" name="label_8">
          <property name="text">
-          <string>Name</string>
+          <string>Name:</string>
          </property>
         </widget>
        </item>
@@ -447,6 +420,32 @@
       <property name="text">
        <string>查询</string>
       </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>50</y>
+        <width>281</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="teamName_lb">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="teamCountry_lb">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_5">

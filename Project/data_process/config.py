@@ -9,3 +9,9 @@ nameDict = {'Premier League':'premierleague',
         'Ligue 1':'ligue1',
         'La Liga':'laliga',
         'Bundesliga':'bundesliga'}
+
+countryDict  = {'Premier League':'England',
+        'Serie A':'Italy',
+        'Ligue 1':'French',
+        'La Liga':'Spain',
+        'Bundesliga':'Germany'}

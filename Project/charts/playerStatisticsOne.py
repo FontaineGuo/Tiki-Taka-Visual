@@ -13,7 +13,7 @@ def player_statistics_One(playerData):
     v1 = [[playerData[14], playerData[15], playerData[16], playerData[17],playerData[18]]]
     skill_one_radar = Radar(**style.init_style)
     skill_one_radar.config(schema_1)
-    skill_one_radar.add("", v1, is_splitline=True, is_axisline_show=True, is_toolbox_show=False, radar_text_size= 8)
+    skill_one_radar.add("", v1, is_splitline=True, is_axisline_show=True, is_toolbox_show=False,is_label_show=True, radar_text_size= 8)
 
 
     page.add(skill_one_radar)
@@ -36,7 +36,7 @@ def player_statistics_Two(playerData):
     v2 = [[playerData[54], playerData[55], playerData[57], playerData[75],playerData[37]]]
     skill_two_radar = Radar(**style.init_style)
     skill_two_radar.config(schema_2)
-    skill_two_radar.add("", v2, is_splitline=True, is_axisline_show=True, is_toolbox_show=False, radar_text_size=8)
+    skill_two_radar.add("", v2, is_splitline=True, is_axisline_show=True, is_toolbox_show=False,is_label_show=True, radar_text_size=8)
 
     page.add(skill_two_radar)
 

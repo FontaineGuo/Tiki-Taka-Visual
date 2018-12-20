@@ -76,7 +76,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 
         #team static singal
         self.team_leagueBox.currentIndexChanged.connect(self.team_leagueBox_activate)
-
+        self.team_checkBtn.clicked.connect(self.team_check_team)
         # player data singal
         self.player_CheckBtn.clicked.connect(self.player_check)
 
@@ -230,7 +230,8 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
             self.team_teamBox.addItem(item)
 
     def team_check_team(self):
-        print()
+        self.teamCountry_lb.setText(config.countryDict[self.team_leagueBox.currentText()])
+        self.teamName_lb.setText(self.team_teamBox.currentText())
 # <-----------------------define the funcation of team season data----------------------------------------------->
 # <-----------------------define the funcation of player data----------------------------------------------->
     def player_check(self):
