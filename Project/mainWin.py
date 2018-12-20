@@ -31,7 +31,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         self.init_single_game_main()
         self.init_goal_assists_main()
         # self.MainTabCtr.currentChanged.connect(self.main_tab_init)
-        
+
 
 # <----------------------------init specific widget------------------------------------------------------->
     def init_specical_widget(self):
@@ -83,6 +83,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
         # init qwebviewengine
         self.charts_show = QWebEngineView()
         self.player_ChartShow_one = QWebEngineView()
+        self.player_ChartShow_two = QWebEngineView()
 
 
 # <----------------------------init specific widget------------------------------------------------------->
@@ -103,47 +104,53 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
 
 # <----------------------define the function of pts_ui------------------------------------------>
     def init_pts_main(self):
-        self.pts_browser.setText(getTable.get_pts_table(self.pts_leagueBox.currentText(), self.pts_yearBox.currentText()))
-
+        data = getTable.get_pandas_pts_table(self.pts_leagueBox.currentText(),self.pts_yearBox.currentText())
+        model = getTable.PandasModel(data)
+        self.pts_tableView.setModel(model)
 
     def pts_leagueBox_activate(self):
-        # print(self.pts_leagueBox.currentText())
-        #print(getPTS.get_pts('Serie A', '2010-2011'))
-        self.pts_browser.setText(getTable.get_pts_table(self.pts_leagueBox.currentText(), self.pts_yearBox.currentText()))
+        data = getTable.get_pandas_pts_table(self.pts_leagueBox.currentText(),self.pts_yearBox.currentText())
+        model = getTable.PandasModel(data)
+        self.pts_tableView.setModel(model)
 
     def pts_yearBox_activate(self):
-        # print(self.pts_yearBox.currentText())
-        self.pts_browser.setText(getTable.get_pts_table(self.pts_leagueBox.currentText(), self.pts_yearBox.currentText()))
+        data = getTable.get_pandas_pts_table(self.pts_leagueBox.currentText(),self.pts_yearBox.currentText())
+        model = getTable.PandasModel(data)
+        self.pts_tableView.setModel(model)
 
 # <----------------------define the function of pts_ui------------------------------------------>
 
 # <----------------------define the function of goalgetter_assists_ui------------------------------------------>
     def init_goal_assists_main(self):
+        data = getTable.get_pandas_goalgetter_assists_table(self.ga_leagueBox.currentText(),
+                                                            self.ga_yearBox.currentText(),
+                                                            self.ga_optionBox.currentText())
+        model = getTable.PandasModel(data)
+        self.ga_tableView.setModel(model)
 
-        self.ga_browser.setText(
-            getTable.get_goalgetter_assists_table(self.ga_leagueBox.currentText(),
-                                                  self.ga_yearBox.currentText(),
-                                                  self.ga_optionBox.currentText()))
 
 
 
     def ga_leagueBox_activate(self):
-        self.ga_browser.setText(
-            getTable.get_goalgetter_assists_table(self.ga_leagueBox.currentText(),
-                                          self.ga_yearBox.currentText(),
-                                          self.ga_optionBox.currentText()))
+        data = getTable.get_pandas_goalgetter_assists_table(self.ga_leagueBox.currentText(),
+                                                            self.ga_yearBox.currentText(),
+                                                            self.ga_optionBox.currentText())
+        model = getTable.PandasModel(data)
+        self.ga_tableView.setModel(model)
 
     def ga_yearBox_activate(self):
-        self.ga_browser.setText(
-            getTable.get_goalgetter_assists_table(self.ga_leagueBox.currentText(),
-                                          self.ga_yearBox.currentText(),
-                                          self.ga_optionBox.currentText()))
+        data = getTable.get_pandas_goalgetter_assists_table(self.ga_leagueBox.currentText(),
+                                                            self.ga_yearBox.currentText(),
+                                                            self.ga_optionBox.currentText())
+        model = getTable.PandasModel(data)
+        self.ga_tableView.setModel(model)
 
     def ga_optionBox_activate(self):
-        self.ga_browser.setText(
-            getTable.get_goalgetter_assists_table(self.ga_leagueBox.currentText(),
-                                          self.ga_yearBox.currentText(),
-                                          self.ga_optionBox.currentText()))
+        data = getTable.get_pandas_goalgetter_assists_table(self.ga_leagueBox.currentText(),
+                                                            self.ga_yearBox.currentText(),
+                                                            self.ga_optionBox.currentText())
+        model = getTable.PandasModel(data)
+        self.ga_tableView.setModel(model)
 # <----------------------define the function of goalgetter_assists_ui------------------------------------------>
 # <----------------------define the function of team_statics_ui------------------------------------------>
     def init_team_statics_main(self):
@@ -182,6 +189,8 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
     def change_option(self,i):
         self.sg_gameBox.clear()
         if i == 4:
+            self.sg_roundBox.blockSignals(True)
+            self.sg_yearBox.blockSignals(True)
             self.sg_roundBox.clear()
             for item in getJsonConfig.select_round_gameinfo('Bundesliga',
                                                             self.sg_yearBox.currentText(),
@@ -190,6 +199,8 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
                 self.sg_gameBox.addItem(data)
             for item in range(1, 35):
                 self.sg_roundBox.addItem(str(item))
+            self.sg_roundBox.blockSignals(False)
+            self.sg_yearBox.blockSignals(False)
         else:
             for item in getJsonConfig.select_round_gameinfo(self.sg_leagueBox.currentText(),
                                                             self.sg_yearBox.currentText(),
@@ -198,6 +209,7 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
                 self.sg_gameBox.addItem(data)
 
     def change_round_year(self,i):
+        print('Change round year')
         self.sg_gameBox.clear()
         for item in getJsonConfig.select_round_gameinfo(self.sg_leagueBox.currentText(),
                                                         self.sg_yearBox.currentText(),
@@ -230,6 +242,8 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
             self.playerAge_lb.setText(str(player[3]))
             self.playerClub_lb.setText(player[9])
             self.playerCountry_lb.setText(player[5])
+            self.playerPosition_lb.setText(player[58])
+            self.playerPreferredFoot_lb.setText(player[60])
             req = requests.get(player[4])
             req2 = requests.get(player[6])
             req3 = requests.get(player[10])
@@ -247,6 +261,9 @@ class TikiTaka(QMainWindow, Ui_MainWindow):
             self.playerClubPhoto_lb.setPixmap(clubPhoto)
             self.player_ChartShow_one.load(QUrl.fromLocalFile(playerStatisticsOne.player_statistics_One(player)))
             self.player_ChartOne.addWidget(self.player_ChartShow_one)
+
+            self.player_ChartShow_two.load(QUrl.fromLocalFile(playerStatisticsOne.player_statistics_Two(player)))
+            self.player_ChartTwo.addWidget(self.player_ChartShow_two)
             # self.playerHeight_lb.setText(player[])
             # self.playerWeight_lb.setText()
 # <-----------------------define the funcation of player data----------------------------------------------->
